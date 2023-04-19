@@ -1,0 +1,4 @@
+[2023-03-15 15:54:55.085] [GIT  ] [/project] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 114 ms
+
+[2023-03-15 15:57:37.447] [GIT  ] [/project/ev_sdk] git log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:src/ji.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 2,2:src/ji.py • file src/ji.py has only 0 lines • 111 ms
+

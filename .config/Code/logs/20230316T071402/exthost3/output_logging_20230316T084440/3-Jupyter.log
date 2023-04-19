@@ -1,0 +1,10 @@
+code-server (1.72.1, www.cvmart.net, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.16.1.
+Workspace folder /project
+info 08:45:13.835: ZMQ install verified.
+info 08:45:14.549: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 08:45:15.553: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 08:45:16.003: Process Execution: > jupyter lab --version
+> jupyter lab --version

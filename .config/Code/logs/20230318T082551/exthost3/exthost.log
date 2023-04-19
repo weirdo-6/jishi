@@ -1,0 +1,45 @@
+[2023-03-18 09:56:19.695] [exthost] [info] Extension host with pid 6375 started
+[2023-03-18 09:56:19.700] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock'
+[2023-03-18 09:56:19.709] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 09:56:19.713] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': The lock does not look stale, elapsed: 777 ms, giving up.
+[2023-03-18 09:56:19.714] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock'
+[2023-03-18 09:56:19.714] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 09:56:19.714] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock': The lock does not look stale, elapsed: 573 ms, giving up.
+[2023-03-18 09:56:19.715] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock'
+[2023-03-18 09:56:19.716] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 09:56:19.717] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': The pid 4914 appears to be gone.
+[2023-03-18 09:56:19.717] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Deleting a stale lock.
+[2023-03-18 09:56:19.726] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Lock acquired.
+[2023-03-18 09:56:19.940] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 09:56:19.941] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 09:56:19.942] [exthost] [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 09:56:19.942] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-18 09:56:19.943] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-18 09:56:19.943] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-18 09:56:22.105] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2023-03-18 09:56:22.450] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-18 09:56:22.451] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-18 09:56:28.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:56:28.564] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:56:28.564] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:56:28.565] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:56:28.565] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:56:28.565] [exthost] [info] Eager extensions activated
+[2023-03-18 09:56:54.152] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+[2023-03-18 09:56:54.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+[2023-03-18 09:56:54.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+[2023-03-18 09:56:54.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTaskType:npm'
+[2023-03-18 09:56:54.154] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onTaskType:typescript'
+[2023-03-18 10:26:11.362] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-03-18 10:26:11.363] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-18 10:26:11.497] [exthost] [warning] {"name":"Canceled"}
+[2023-03-18 10:26:11.511] [exthost] [error] Error: Channel closed
+	at new NodeError (node:internal/errors:387:5)
+	at ChildProcess.target.send (node:internal/child_process:742:16)
+	at IPCMessageWriter.write (/cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-jsonrpc/lib/messageWriter.js:34:22)
+	at /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-jsonrpc/lib/main.js:195:31
+	at new Promise (<anonymous>)
+	at Object.sendRequest (/cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-jsonrpc/lib/main.js:186:20)
+	at Object.shutdown (/cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-languageclient/lib/main.js:48:51)
+	at /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-languageclient/lib/main.js:319:24
+[2023-03-18 10:26:11.516] [exthost] [info] Extension host with pid 6375 exiting with code 0

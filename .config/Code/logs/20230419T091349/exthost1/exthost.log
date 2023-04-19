@@ -1,0 +1,52 @@
+[2023-04-19 09:14:09.455] [exthost] [info] Extension host with pid 794 started
+[2023-04-19 09:14:09.477] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Lock acquired.
+[2023-04-19 09:14:09.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-19 09:14:09.870] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-04-19 09:14:09.871] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-19 09:14:10.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-04-19 09:14:10.832] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-19 09:14:12.501] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-19 09:14:12.502] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-19 09:14:12.502] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-19 09:14:12.503] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-19 09:14:12.503] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-19 09:14:12.504] [exthost] [info] Eager extensions activated
+[2023-04-19 09:14:18.607] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5779
+[2023-04-19 09:14:25.885] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5779
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:32.369] [exthost] [error] {"message":"Git error","stdout":"","stderr":"","exitCode":128}
+[2023-04-19 09:14:35.228] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:14:45.622] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:14:54.834] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:15:04.576] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:15:13.767] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:15:55.363] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:16:04.595] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:16:13.729] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:16:23.121] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:16:32.281] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:16:42.012] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:16:51.414] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:17:00.818] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:17:10.832] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:17:20.464] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:17:29.986] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:17:39.595] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:19:56.582] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5781
+[2023-04-19 09:20:00.633] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-04-19 09:20:00.634] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-04-19 09:20:00.678] [exthost] [info] Extension host with pid 794 exiting with code 0

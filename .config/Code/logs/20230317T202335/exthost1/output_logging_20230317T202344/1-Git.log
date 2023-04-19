@@ -1,0 +1,60 @@
+[2023-03-17T12:23:45.172Z] Log level: Info
+[2023-03-17T12:23:45.179Z] [info] Validating found git in: git
+[2023-03-17T12:23:45.338Z] [info] Using git 2.17.1 from git
+[2023-03-17T12:23:45.819Z] > git rev-parse --show-toplevel [350ms]
+[2023-03-17T12:23:45.820Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:45.920Z] > git rev-parse --show-toplevel [3ms]
+[2023-03-17T12:23:45.920Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.020Z] > git rev-parse --show-toplevel [3ms]
+[2023-03-17T12:23:46.020Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.116Z] > git rev-parse --show-toplevel [1ms]
+[2023-03-17T12:23:46.116Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.188Z] > git rev-parse --show-toplevel [1ms]
+[2023-03-17T12:23:46.188Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.320Z] > git rev-parse --show-toplevel [14ms]
+[2023-03-17T12:23:46.320Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.441Z] > git rev-parse --show-toplevel [1ms]
+[2023-03-17T12:23:46.441Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.568Z] > git rev-parse --show-toplevel [1ms]
+[2023-03-17T12:23:46.568Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:46.692Z] > git rev-parse --show-toplevel [5ms]
+[2023-03-17T12:23:46.692Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:47.398Z] > git rev-parse --show-toplevel [586ms]
+[2023-03-17T12:23:47.398Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:47.524Z] > git rev-parse --show-toplevel [1ms]
+[2023-03-17T12:23:47.524Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:47.654Z] > git rev-parse --show-toplevel [10ms]
+[2023-03-17T12:23:47.654Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:23:53.626Z] > git rev-parse --show-toplevel [5ms]
+[2023-03-17T12:23:53.626Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-17T12:24:03.310Z] > git rev-parse --show-toplevel [956ms]
+[2023-03-17T12:24:03.400Z] > git rev-parse --git-dir --git-common-dir [4ms]
+[2023-03-17T12:24:03.412Z] [info] Open repository: /usr/local/ev_sdk
+[2023-03-17T12:24:03.522Z] > git status -z -uall [19ms]
+[2023-03-17T12:24:03.610Z] > git symbolic-ref --short HEAD [1ms]
+[2023-03-17T12:24:03.699Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2023-03-17T12:24:03.882Z] > git remote --verbose [3ms]
+[2023-03-17T12:24:03.883Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [94ms]
+[2023-03-17T12:24:03.990Z] > git config --get commit.template [7ms]
+[2023-03-17T12:24:04.086Z] > git status -z -uall [3ms]
+[2023-03-17T12:24:04.176Z] > git symbolic-ref --short HEAD [2ms]
+[2023-03-17T12:24:04.265Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2023-03-17T12:24:04.447Z] > git remote --verbose [5ms]
+[2023-03-17T12:24:04.448Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [95ms]
+[2023-03-17T12:24:04.730Z] > git config --get commit.template [188ms]
+[2023-03-17T12:29:12.191Z] > git rev-parse --show-toplevel [1650ms]
+[2023-03-17T12:29:12.462Z] > git rev-parse --git-dir --git-common-dir [164ms]
+[2023-03-17T12:29:12.472Z] [info] Open repository: /project/train/src_repo
+[2023-03-17T12:29:12.583Z] > git status -z -uall [23ms]
+[2023-03-17T12:29:12.693Z] > git symbolic-ref --short HEAD [28ms]
+[2023-03-17T12:29:12.809Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+[2023-03-17T12:29:12.976Z] > git remote --verbose [3ms]
+[2023-03-17T12:29:12.976Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [88ms]
+[2023-03-17T12:29:13.059Z] > git config --get commit.template [1ms]
+[2023-03-17T12:29:13.301Z] > git status -z -uall [166ms]
+[2023-03-17T12:29:13.402Z] > git symbolic-ref --short HEAD [22ms]
+[2023-03-17T12:29:13.501Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+[2023-03-17T12:29:13.660Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [81ms]
+[2023-03-17T12:29:13.661Z] > git remote --verbose [3ms]
+[2023-03-17T12:29:13.759Z] > git config --get commit.template [12ms]
+[2023-03-17T12:29:14.912Z] > git check-ignore -v -z --stdin [2ms]

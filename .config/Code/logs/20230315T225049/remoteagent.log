@@ -1,0 +1,159 @@
+[2023-03-15 22:50:50.044] [remoteagent] [info] 
+
+
+
+
+[2023-03-15 22:50:50.269] [remoteagent] [info] Extension host agent started.
+[2023-03-15 22:50:50.977] [remoteagent] [info] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[2023-03-15 22:50:50.980] [remoteagent] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[2023-03-15 22:50:51.003] [remoteagent] [info] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[2023-03-15 22:50:51.136] [remoteagent] [info] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[2023-03-15 22:50:51.149] [remoteagent] [info] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2023-03-15 23:13:38.786] [remoteagent] [error] [127.0.0.1][765990b7][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2023-03-15 23:15:01.469] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] New connection established.
+[2023-03-15 23:15:16.151] [remoteagent] [error] [127.0.0.1][6a153fca][ManagementConnection] Unknown reconnection token (never seen).
+[2023-03-15 23:15:24.593] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] New connection established.
+[2023-03-15 23:15:24.698] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] <810> Launched Extension Host Process.
+[2023-03-15 23:16:13.551] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[2023-03-15 23:16:14.730] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:16:21.355] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /cvmart-ide/vscode/vscode/lib/vscode/node_modules/keytar/lib/keytar.js
+- /cvmart-ide/vscode/vscode/lib/vscode/out/bootstrap-amd.js
+- /cvmart-ide/vscode/vscode/out/node/util.js
+- /cvmart-ide/vscode/vscode/out/node/cli.js
+- /cvmart-ide/vscode/vscode/out/node/entry.js
+[2023-03-15 23:21:43.441] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:21:43.446] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[2023-03-15 23:34:07.710] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[2023-03-15 23:34:07.713] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:35:34.131] [remoteagent] [info] [127.0.0.1][41e05874][ManagementConnection] New connection established.
+[2023-03-15 23:35:43.857] [remoteagent] [info] [127.0.0.1][7c4233cb][ExtensionHostConnection] New connection established.
+[2023-03-15 23:35:43.964] [remoteagent] [info] [127.0.0.1][7c4233cb][ExtensionHostConnection] <2396> Launched Extension Host Process.
+[2023-03-15 23:35:47.630] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 18
+[2023-03-15 23:35:47.630] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 19
+[2023-03-15 23:35:47.630] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 20
+[2023-03-15 23:35:48.469] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 21
+[2023-03-15 23:35:48.469] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 22
+[2023-03-15 23:35:48.469] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 23
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 24
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 25
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 26
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 27
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 28
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 29
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 30
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 31
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 32
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 33
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 34
+[2023-03-15 23:35:53.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 35
+[2023-03-15 23:35:53.149] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 36
+[2023-03-15 23:35:53.149] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 37
+[2023-03-15 23:35:53.149] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 38
+[2023-03-15 23:35:58.832] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 39
+[2023-03-15 23:35:58.832] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 40
+[2023-03-15 23:35:58.832] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 41
+[2023-03-15 23:36:27.455] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 42
+[2023-03-15 23:36:27.456] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 43
+[2023-03-15 23:36:27.458] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 44
+[2023-03-15 23:36:27.459] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 45
+[2023-03-15 23:36:27.459] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 46
+[2023-03-15 23:36:27.459] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 47
+[2023-03-15 23:36:27.459] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 48
+[2023-03-15 23:36:27.460] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 49
+[2023-03-15 23:41:40.654] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[2023-03-15 23:41:41.840] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:41:42.335] [remoteagent] [info] [127.0.0.1][7c4233cb][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:41:42.338] [remoteagent] [info] [127.0.0.1][41e05874][ManagementConnection] The client has reconnected.
+[2023-03-15 23:46:13.250] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:46:14.543] [remoteagent] [info] [127.0.0.1][7c4233cb][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:46:15.652] [remoteagent] [info] [127.0.0.1][41e05874][ManagementConnection] The client has reconnected.
+[2023-03-15 23:46:16.367] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[2023-03-15 23:54:37.084] [remoteagent] [info] [127.0.0.1][1d42e687][ManagementConnection] New connection established.
+[2023-03-15 23:54:41.288] [remoteagent] [info] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[2023-03-15 23:54:42.462] [remoteagent] [info] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:54:43.024] [remoteagent] [info] [127.0.0.1][7c4233cb][ExtensionHostConnection] The client has reconnected.
+[2023-03-15 23:54:43.024] [remoteagent] [info] [127.0.0.1][41e05874][ManagementConnection] The client has reconnected.
+[2023-03-15 23:54:44.370] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 50
+[2023-03-15 23:54:44.370] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 51
+[2023-03-15 23:54:44.374] [remoteagent] [info] [127.0.0.1][6c090709][ExtensionHostConnection] New connection established.
+[2023-03-15 23:54:44.474] [remoteagent] [info] [127.0.0.1][6c090709][ExtensionHostConnection] <4914> Launched Extension Host Process.
+[2023-03-15 23:54:44.501] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 50
+[2023-03-15 23:54:44.501] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 51
+[2023-03-15 23:54:44.758] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 52
+[2023-03-15 23:54:44.758] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 53
+[2023-03-15 23:54:45.412] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 52
+[2023-03-15 23:54:45.413] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 53
+[2023-03-15 23:54:45.413] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 54
+[2023-03-15 23:54:45.443] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 55
+[2023-03-15 23:54:45.443] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 56
+[2023-03-15 23:54:45.921] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 54
+[2023-03-15 23:54:45.921] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 55
+[2023-03-15 23:54:45.921] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 56
+[2023-03-15 23:54:45.944] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 57
+[2023-03-15 23:54:46.011] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 58
+[2023-03-15 23:54:46.012] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 59
+[2023-03-15 23:54:46.659] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 57
+[2023-03-15 23:54:46.659] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 58
+[2023-03-15 23:54:46.659] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 59
+[2023-03-15 23:54:46.704] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 60
+[2023-03-15 23:54:46.704] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 61
+[2023-03-15 23:54:46.809] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 62
+[2023-03-15 23:54:46.953] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 60
+[2023-03-15 23:54:46.953] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 61
+[2023-03-15 23:54:46.954] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 62
+[2023-03-15 23:54:46.999] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 63
+[2023-03-15 23:54:47.000] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 64
+[2023-03-15 23:54:47.000] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 65
+[2023-03-15 23:54:47.000] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 66
+[2023-03-15 23:54:47.751] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 63
+[2023-03-15 23:54:47.751] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 64
+[2023-03-15 23:54:47.751] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 65
+[2023-03-15 23:54:47.751] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 66
+[2023-03-15 23:54:47.751] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 67
+[2023-03-15 23:54:47.752] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 68
+[2023-03-15 23:54:47.752] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 69
+[2023-03-15 23:54:47.752] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 70
+[2023-03-15 23:54:47.752] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 71
+[2023-03-15 23:54:47.752] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 72
+[2023-03-15 23:54:47.811] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 73
+[2023-03-15 23:54:47.814] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 74
+[2023-03-15 23:54:47.814] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 75
+[2023-03-15 23:54:47.814] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 76
+[2023-03-15 23:54:48.006] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 67
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 68
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 69
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 70
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 71
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 72
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 73
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 74
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 75
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 76
+[2023-03-15 23:54:48.007] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 77
+[2023-03-15 23:54:48.288] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 78
+[2023-03-15 23:54:49.241] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 77
+[2023-03-15 23:54:49.241] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 78
+[2023-03-15 23:54:49.241] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 79
+[2023-03-15 23:54:49.268] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 79
+[2023-03-15 23:54:51.361] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 80
+[2023-03-15 23:54:51.534] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 81
+[2023-03-15 23:54:51.553] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 80
+[2023-03-15 23:54:51.554] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 81
+[2023-03-15 23:54:51.554] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 82
+[2023-03-15 23:54:52.200] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 82
+[2023-03-15 23:54:52.435] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 83
+[2023-03-15 23:54:52.535] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 84
+[2023-03-15 23:54:52.535] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 83
+[2023-03-15 23:54:52.535] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 84
+[2023-03-15 23:54:53.536] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 85
+[2023-03-15 23:54:53.537] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 86
+[2023-03-15 23:54:53.537] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 87
+[2023-03-15 23:54:53.537] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 88
+[2023-03-15 23:54:53.616] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 85
+[2023-03-15 23:54:53.616] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 86
+[2023-03-15 23:54:53.616] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 87
+[2023-03-15 23:54:53.616] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 88
+[2023-03-15 23:54:53.616] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 89
+[2023-03-15 23:54:53.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 89

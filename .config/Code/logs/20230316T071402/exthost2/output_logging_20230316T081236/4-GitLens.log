@@ -1,0 +1,2 @@
+[2023-03-16 00:20:18.402] [GIT  ] [/project] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 69 ms
+

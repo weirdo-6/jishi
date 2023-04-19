@@ -1,0 +1,776 @@
+[2023-03-15T09:50:02.959Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-15T09:50:02.960Z] info  Using user-data-dir ~/.config/Code
+[2023-03-15T09:50:02.978Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-15T09:50:02.978Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-15T09:50:02.978Z] info    - Authentication is disabled 
+[2023-03-15T09:50:02.978Z] info    - Not serving HTTPS 
+[17:52:18] Extension host agent started.
+[17:52:19] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[17:52:19] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[17:52:19] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[17:52:19] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[17:52:19] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[17:52:21] [127.0.0.1][6a153fca][ManagementConnection] New connection established.
+[17:52:23] [127.0.0.1][765990b7][ExtensionHostConnection] New connection established.
+[17:52:23] [127.0.0.1][765990b7][ExtensionHostConnection] <292> Launched Extension Host Process.
+[17:57:05] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[17:57:05] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:01:14] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:01:14] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:03:12] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:03:13] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:09:27] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:09:27] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:14:02] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:14:02] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:14:34] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:14:35] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:20:19] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:20:21] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:26:31] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:26:31] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:30:45] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:30:45] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:35:11] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:35:11] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:37:26] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:37:26] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:41:47] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:41:47] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:44:46] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:44:46] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:49:39] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[18:49:40] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:57:15] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[18:57:15] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:02:18] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:02:18] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[19:05:03] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[19:05:03] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:09:53] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:09:53] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[19:14:37] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:14:37] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[19:25:08] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[19:25:08] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:29:53] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:29:53] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[19:33:54] [127.0.0.1][765990b7][ExtensionHostConnection] The client has reconnected.
+[19:33:55] [127.0.0.1][6a153fca][ManagementConnection] The client has reconnected.
+[2023-03-15T14:47:54.232Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-15T14:47:54.234Z] info  Using user-data-dir ~/.config/Code
+[2023-03-15T14:47:54.584Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-15T14:47:54.584Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-15T14:47:54.584Z] info    - Authentication is disabled 
+[2023-03-15T14:47:54.584Z] info    - Not serving HTTPS 
+[22:50:50] Extension host agent started.
+[22:50:50] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[22:50:50] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[22:50:51] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[22:50:51] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[22:50:51] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[23:15:01] [127.0.0.1][a881e169][ManagementConnection] New connection established.
+[23:15:24] [127.0.0.1][93a46c40][ExtensionHostConnection] New connection established.
+[23:15:24] [127.0.0.1][93a46c40][ExtensionHostConnection] <810> Launched Extension Host Process.
+[23:16:13] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[23:16:14] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[23:21:43] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[23:21:43] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[23:34:07] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[23:34:07] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[23:35:34] [127.0.0.1][41e05874][ManagementConnection] New connection established.
+[23:35:43] [127.0.0.1][7c4233cb][ExtensionHostConnection] New connection established.
+[23:35:43] [127.0.0.1][7c4233cb][ExtensionHostConnection] <2396> Launched Extension Host Process.
+[23:41:40] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[23:41:41] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[23:41:42] [127.0.0.1][7c4233cb][ExtensionHostConnection] The client has reconnected.
+[23:41:42] [127.0.0.1][41e05874][ManagementConnection] The client has reconnected.
+[23:46:13] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[23:46:14] [127.0.0.1][7c4233cb][ExtensionHostConnection] The client has reconnected.
+[23:46:15] [127.0.0.1][41e05874][ManagementConnection] The client has reconnected.
+[23:46:16] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[23:54:37] [127.0.0.1][1d42e687][ManagementConnection] New connection established.
+[23:54:41] [127.0.0.1][a881e169][ManagementConnection] The client has reconnected.
+[23:54:42] [127.0.0.1][93a46c40][ExtensionHostConnection] The client has reconnected.
+[23:54:43] [127.0.0.1][7c4233cb][ExtensionHostConnection] The client has reconnected.
+[23:54:43] [127.0.0.1][41e05874][ManagementConnection] The client has reconnected.
+[23:54:44] [127.0.0.1][6c090709][ExtensionHostConnection] New connection established.
+[23:54:44] [127.0.0.1][6c090709][ExtensionHostConnection] <4914> Launched Extension Host Process.
+[2023-03-15T23:13:48.753Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-15T23:13:48.755Z] info  Using user-data-dir ~/.config/Code
+[2023-03-15T23:13:48.772Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-15T23:13:48.772Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-15T23:13:48.772Z] info    - Authentication is disabled 
+[2023-03-15T23:13:48.772Z] info    - Not serving HTTPS 
+[07:14:02] Extension host agent started.
+[07:14:03] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[07:14:03] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[07:14:03] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[07:14:03] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[07:14:03] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[07:21:06] [127.0.0.1][f48cbbe9][ManagementConnection] New connection established.
+[07:21:14] [127.0.0.1][9cecdfd5][ExtensionHostConnection] New connection established.
+[07:21:14] [127.0.0.1][9cecdfd5][ExtensionHostConnection] <352> Launched Extension Host Process.
+[07:52:50] [127.0.0.1][c93bdc76][ManagementConnection] New connection established.
+[07:57:52] [127.0.0.1][9cecdfd5][ExtensionHostConnection] <352> Extension Host Process exited with code: 0, signal: null.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 9989 chars and 1 size events
+[08:12:07] [127.0.0.1][0f6af779][ExtensionHostConnection] New connection established.
+[08:12:07] [127.0.0.1][0f6af779][ExtensionHostConnection] <4760> Launched Extension Host Process.
+[08:19:33] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[08:19:44] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[08:33:34] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[08:36:19] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[08:38:57] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[08:40:30] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[08:42:59] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[08:42:59] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[08:44:37] [127.0.0.1][a15344af][ManagementConnection] New connection established.
+[08:44:39] [127.0.0.1][4cc3862a][ExtensionHostConnection] New connection established.
+[08:44:39] [127.0.0.1][4cc3862a][ExtensionHostConnection] <7711> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 9989 chars and 1 size events
+[2023-03-16T04:22:47.657Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-16T04:22:47.659Z] info  Using user-data-dir ~/.config/Code
+[2023-03-16T04:22:47.679Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-16T04:22:47.679Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-16T04:22:47.679Z] info    - Authentication is disabled 
+[2023-03-16T04:22:47.679Z] info    - Not serving HTTPS 
+[12:24:55] Extension host agent started.
+[12:24:55] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[12:24:55] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[12:24:55] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[12:24:55] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[12:24:55] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[12:27:38] [127.0.0.1][3202cee9][ManagementConnection] New connection established.
+[12:27:39] [127.0.0.1][9bf9f8e7][ExtensionHostConnection] New connection established.
+[12:27:39] [127.0.0.1][9bf9f8e7][ExtensionHostConnection] <283> Launched Extension Host Process.
+[12:32:37] [127.0.0.1][3202cee9][ManagementConnection] The client has reconnected.
+[12:32:37] [127.0.0.1][9bf9f8e7][ExtensionHostConnection] The client has reconnected.
+[12:37:46] [127.0.0.1][9bf9f8e7][ExtensionHostConnection] The client has reconnected.
+[12:37:47] [127.0.0.1][3202cee9][ManagementConnection] The client has reconnected.
+[2023-03-16T14:46:27.146Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-16T14:46:27.148Z] info  Using user-data-dir ~/.config/Code
+[2023-03-16T14:46:27.166Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-16T14:46:27.167Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-16T14:46:27.167Z] info    - Authentication is disabled 
+[2023-03-16T14:46:27.167Z] info    - Not serving HTTPS 
+[22:45:16] Extension host agent started.
+[22:45:16] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[22:45:16] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[22:45:16] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[22:45:17] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[22:45:17] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[22:45:17] [127.0.0.1][e2bc3d43][ManagementConnection] New connection established.
+[22:45:28] [127.0.0.1][cf11e48e][ExtensionHostConnection] New connection established.
+[22:45:28] [127.0.0.1][cf11e48e][ExtensionHostConnection] <234> Launched Extension Host Process.
+[22:48:51] [127.0.0.1][e2bc3d43][ManagementConnection] The client has reconnected.
+[22:48:51] [127.0.0.1][cf11e48e][ExtensionHostConnection] The client has reconnected.
+[22:56:29] [127.0.0.1][cf11e48e][ExtensionHostConnection] The client has reconnected.
+[22:56:30] [127.0.0.1][e2bc3d43][ManagementConnection] The client has reconnected.
+[23:04:41] [127.0.0.1][cf11e48e][ExtensionHostConnection] The client has reconnected.
+[23:04:41] [127.0.0.1][e2bc3d43][ManagementConnection] The client has reconnected.
+[01:55:12] [127.0.0.1][cf11e48e][ExtensionHostConnection] <234> Extension Host Process exited with code: 0, signal: null.
+[2023-03-17T11:52:18.855Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-17T11:52:18.857Z] info  Using user-data-dir ~/.config/Code
+[2023-03-17T11:52:18.872Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-17T11:52:18.872Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-17T11:52:18.872Z] info    - Authentication is disabled 
+[2023-03-17T11:52:18.872Z] info    - Not serving HTTPS 
+[20:23:36] Extension host agent started.
+[20:23:36] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[20:23:36] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[20:23:36] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[20:23:36] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[20:23:36] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[20:23:40] [127.0.0.1][d36c1b7d][ManagementConnection] New connection established.
+[20:23:41] [127.0.0.1][788f435d][ExtensionHostConnection] New connection established.
+[20:23:42] [127.0.0.1][788f435d][ExtensionHostConnection] <931> Launched Extension Host Process.
+[20:24:58] [127.0.0.1][1e2bc6e5][ManagementConnection] New connection established.
+[20:25:00] [127.0.0.1][d47e813a][ExtensionHostConnection] New connection established.
+[20:25:00] [127.0.0.1][d47e813a][ExtensionHostConnection] <1056> Launched Extension Host Process.
+[20:29:08] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[20:29:08] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[20:29:12] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:29:12] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:31:42] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:31:42] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:32:11] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[20:32:11] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[20:33:44] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[20:33:44] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[20:34:12] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:34:12] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:34:47] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:34:47] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:35:17] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[20:35:17] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[20:39:12] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:39:12] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:43:25] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:43:25] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:44:14] [127.0.0.1][788f435d][ExtensionHostConnection] <931> Extension Host Process exited with code: 0, signal: null.
+[20:47:49] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[20:47:49] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[20:59:15] [127.0.0.1][1ff55bea][ManagementConnection] New connection established.
+[20:59:16] [127.0.0.1][d92115ca][ExtensionHostConnection] New connection established.
+[20:59:16] [127.0.0.1][d92115ca][ExtensionHostConnection] <3353> Launched Extension Host Process.
+[21:04:14] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:04:14] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:04:16] [127.0.0.1][d47e813a][ExtensionHostConnection] <1056> Extension Host Process exited with code: 0, signal: null.
+[21:08:54] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:08:54] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:28:11] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:28:32] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:34:46] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:34:46] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:39:53] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:39:54] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:44:04] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:44:04] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:50:38] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:50:38] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:52:34] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[21:52:38] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:57:43] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[21:57:45] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:04:33] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:04:34] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:09:30] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:09:37] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:14:03] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:14:03] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:18:05] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:18:05] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:22:11] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:22:11] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:22:45] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:22:45] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:28:18] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:28:19] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:33:55] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:33:55] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:40:32] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:40:33] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:44:35] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:44:35] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:49:21] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:49:21] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:52:49] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[22:52:51] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:58:21] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[22:58:25] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:04:05] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:04:07] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:08:51] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:08:51] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:13:00] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:13:00] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:17:14] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:17:14] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:22:55] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:22:55] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:22:51] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:22:53] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:27:54] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:27:54] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:33:49] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:33:49] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:37:57] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:37:57] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:47:08] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:47:08] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:52:34] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:52:34] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[23:52:56] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[23:52:59] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[02:43:58] [127.0.0.1][d92115ca][ExtensionHostConnection] <3353> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18T00:20:38.243Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-18T00:20:38.244Z] info  Using user-data-dir ~/.config/Code
+[2023-03-18T00:20:38.258Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-18T00:20:38.258Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-18T00:20:38.258Z] info    - Authentication is disabled 
+[2023-03-18T00:20:38.258Z] info    - Not serving HTTPS 
+[08:25:52] Extension host agent started.
+[08:25:52] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[08:25:52] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[08:25:52] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[08:25:52] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[08:25:52] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[08:25:53] [127.0.0.1][11c9d1d5][ManagementConnection] New connection established.
+[08:25:54] [127.0.0.1][474e86ac][ExtensionHostConnection] New connection established.
+[08:25:54] [127.0.0.1][474e86ac][ExtensionHostConnection] <353> Launched Extension Host Process.
+[08:30:34] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[08:30:34] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[08:35:46] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[08:35:46] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[08:41:39] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[08:41:39] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[08:48:18] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[08:48:18] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[08:52:20] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[08:52:20] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[09:55:21] [127.0.0.1][c1d986cc][ManagementConnection] New connection established.
+[09:55:23] [127.0.0.1][4df1e3c7][ExtensionHostConnection] New connection established.
+[09:55:23] [127.0.0.1][4df1e3c7][ExtensionHostConnection] <6294> Launched Extension Host Process.
+[09:56:13] [127.0.0.1][bd83b658][ManagementConnection] New connection established.
+[09:56:18] [127.0.0.1][efd97d31][ExtensionHostConnection] New connection established.
+[09:56:18] [127.0.0.1][efd97d31][ExtensionHostConnection] <6375> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 6256 chars and 1 size events
+[09:57:45] [127.0.0.1][c2dc2bb9][ManagementConnection] New connection established.
+[09:57:46] [127.0.0.1][23d9e33c][ExtensionHostConnection] New connection established.
+[09:57:47] [127.0.0.1][23d9e33c][ExtensionHostConnection] <6574> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 6256 chars and 1 size events
+[10:00:22] [127.0.0.1][474e86ac][ExtensionHostConnection] <353> Extension Host Process exited with code: 0, signal: null.
+[10:00:41] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[10:00:41] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[10:02:46] [127.0.0.1][4df1e3c7][ExtensionHostConnection] <6294> Extension Host Process exited with code: 0, signal: null.
+[10:03:04] [127.0.0.1][23d9e33c][ExtensionHostConnection] The client has reconnected.
+[10:03:04] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[10:03:04] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[10:03:04] [127.0.0.1][c2dc2bb9][ManagementConnection] The client has reconnected.
+[10:22:09] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[10:22:09] [127.0.0.1][23d9e33c][ExtensionHostConnection] The client has reconnected.
+[10:22:09] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[10:22:09] [127.0.0.1][c2dc2bb9][ManagementConnection] The client has reconnected.
+[10:24:48] [127.0.0.1][23d9e33c][ExtensionHostConnection] The client has reconnected.
+[10:24:48] [127.0.0.1][c2dc2bb9][ManagementConnection] The client has reconnected.
+[10:24:48] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[10:24:50] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[10:26:11] [127.0.0.1][bd83b658][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:26:11] [127.0.0.1][efd97d31][ExtensionHostConnection] <6375> Extension Host Process exited with code: 0, signal: null.
+[10:26:13] [127.0.0.1][67b11c9c][ManagementConnection] New connection established.
+[10:26:14] [127.0.0.1][66750463][ExtensionHostConnection] New connection established.
+[10:26:15] [127.0.0.1][66750463][ExtensionHostConnection] <8932> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 6256 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 5694 chars and 1 size events
+[10:31:13] [127.0.0.1][23d9e33c][ExtensionHostConnection] <6574> Extension Host Process exited with code: 0, signal: null.
+[13:09:40] [127.0.0.1][701b64d6][ManagementConnection] New connection established.
+[13:09:41] [127.0.0.1][daf1f4cd][ExtensionHostConnection] New connection established.
+[13:09:41] [127.0.0.1][daf1f4cd][ExtensionHostConnection] <13130> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "3": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "3"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 6256 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 5694 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "3": Replaying 5264 chars and 1 size events
+[13:10:39] [127.0.0.1][3d2b80a3][ManagementConnection] New connection established.
+[13:10:41] [127.0.0.1][d33e47e9][ExtensionHostConnection] New connection established.
+[13:10:41] [127.0.0.1][d33e47e9][ExtensionHostConnection] <13232> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "3": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "3"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 6256 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 5694 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "3": Replaying 5264 chars and 1 size events
+[13:11:01] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[13:11:01] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[13:11:36] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[13:11:36] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[13:12:03] [127.0.0.1][ad281ea7][ManagementConnection] New connection established.
+[13:12:38] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[13:12:38] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[13:12:41] [127.0.0.1][ad281ea7][ManagementConnection] The client has reconnected.
+[13:12:41] [127.0.0.1][ccf8b35a][ExtensionHostConnection] New connection established.
+[13:12:41] [127.0.0.1][ccf8b35a][ExtensionHostConnection] <13377> Launched Extension Host Process.
+[13:14:40] [127.0.0.1][66750463][ExtensionHostConnection] <8932> Extension Host Process exited with code: 0, signal: null.
+[13:17:39] [127.0.0.1][d33e47e9][ExtensionHostConnection] <13232> Extension Host Process exited with code: 0, signal: null.
+[15:46:57] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[15:46:57] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[15:46:58] [127.0.0.1][ccf8b35a][ExtensionHostConnection] The client has reconnected.
+[15:46:58] [127.0.0.1][ad281ea7][ManagementConnection] The client has reconnected.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "2": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "3": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "2"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "3"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 6256 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "2": Replaying 5694 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "3": Replaying 5264 chars and 1 size events
+[15:52:34] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[15:52:35] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[15:55:14] [127.0.0.1][ccf8b35a][ExtensionHostConnection] <13377> Extension Host Process exited with code: 0, signal: null.
+[16:04:26] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[16:04:27] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[16:09:02] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[16:09:02] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[16:13:58] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[16:13:58] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[16:13:59] [127.0.0.1][2e9f8069][ManagementConnection] New connection established.
+[16:14:01] [127.0.0.1][79f6ab4c][ExtensionHostConnection] New connection established.
+[16:14:01] [127.0.0.1][79f6ab4c][ExtensionHostConnection] <18462> Launched Extension Host Process.
+[2023-03-18T08:57:47.959Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-18T08:57:48.046Z] info  Using user-data-dir ~/.config/Code
+[2023-03-18T08:57:48.177Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-18T08:57:48.177Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-18T08:57:48.178Z] info    - Authentication is disabled 
+[2023-03-18T08:57:48.178Z] info    - Not serving HTTPS 
+[17:01:28] Extension host agent started.
+[17:01:28] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[17:01:28] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[17:01:28] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[17:01:28] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[17:01:28] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[17:01:33] [127.0.0.1][b608c9ff][ManagementConnection] New connection established.
+[17:01:34] [127.0.0.1][720d98ab][ExtensionHostConnection] New connection established.
+[17:01:35] [127.0.0.1][720d98ab][ExtensionHostConnection] <290> Launched Extension Host Process.
+[17:02:51] [127.0.0.1][720d98ab][ExtensionHostConnection] <290> Extension Host Process exited with code: 0, signal: null.
+[17:02:51] [127.0.0.1][b608c9ff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:03:09] [127.0.0.1][74389d07][ManagementConnection] New connection established.
+[17:03:11] [127.0.0.1][e27aaf08][ExtensionHostConnection] New connection established.
+[17:03:12] [127.0.0.1][e27aaf08][ExtensionHostConnection] <379> Launched Extension Host Process.
+[17:04:21] [127.0.0.1][74389d07][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:04:22] [127.0.0.1][e27aaf08][ExtensionHostConnection] <379> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18T14:06:52.589Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-18T14:06:52.591Z] info  Using user-data-dir ~/.config/Code
+[2023-03-18T14:06:52.607Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-18T14:06:52.607Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-18T14:06:52.607Z] info    - Authentication is disabled 
+[2023-03-18T14:06:52.607Z] info    - Not serving HTTPS 
+[22:11:05] Extension host agent started.
+[22:11:05] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[22:11:05] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[22:11:05] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[22:11:05] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[22:11:06] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[22:11:08] [127.0.0.1][bb629165][ManagementConnection] New connection established.
+[22:11:16] [127.0.0.1][28644e3f][ExtensionHostConnection] New connection established.
+[22:11:16] [127.0.0.1][28644e3f][ExtensionHostConnection] <263> Launched Extension Host Process.
+[22:17:36] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:17:36] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:23:09] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:23:10] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:28:08] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:28:08] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:28:55] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:28:57] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:32:15] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:32:15] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:37:51] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:37:51] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:43:14] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:43:14] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:47:37] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:47:37] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:55:36] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[22:55:37] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:58:56] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[22:59:00] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:05:37] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:05:37] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:10:45] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:10:45] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:15:13] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:15:13] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:19:54] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:19:54] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:24:08] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:24:09] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:29:06] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:29:06] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:35:37] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:35:37] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:42:05] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[23:42:05] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:59:05] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[23:59:06] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[00:07:35] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[00:07:35] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[00:13:51] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[00:13:51] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[00:24:28] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[00:24:28] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[00:28:52] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[00:28:52] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[00:35:24] [127.0.0.1][bb629165][ManagementConnection] The client has reconnected.
+[00:35:24] [127.0.0.1][28644e3f][ExtensionHostConnection] The client has reconnected.
+[2023-03-19T00:11:29.972Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-19T00:11:29.975Z] info  Using user-data-dir ~/.config/Code
+[2023-03-19T00:11:29.994Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-19T00:11:29.995Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-19T00:11:29.995Z] info    - Authentication is disabled 
+[2023-03-19T00:11:29.995Z] info    - Not serving HTTPS 
+[2023-03-19T07:52:21.072Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-19T07:52:21.074Z] info  Using user-data-dir ~/.config/Code
+[2023-03-19T07:52:21.091Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-19T07:52:21.091Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-19T07:52:21.091Z] info    - Authentication is disabled 
+[2023-03-19T07:52:21.091Z] info    - Not serving HTTPS 
+[2023-03-20T02:16:57.899Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-20T02:16:57.902Z] info  Using user-data-dir ~/.config/Code
+[2023-03-20T02:16:57.924Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-20T02:16:57.924Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-20T02:16:57.924Z] info    - Authentication is disabled 
+[2023-03-20T02:16:57.924Z] info    - Not serving HTTPS 
+[2023-03-20T16:18:34.531Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-20T16:18:34.532Z] info  Using user-data-dir ~/.config/Code
+[2023-03-20T16:18:34.559Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-20T16:18:34.559Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-20T16:18:34.559Z] info    - Authentication is disabled 
+[2023-03-20T16:18:34.559Z] info    - Not serving HTTPS 
+[2023-03-20T22:27:52.409Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-20T22:27:52.411Z] info  Using user-data-dir ~/.config/Code
+[2023-03-20T22:27:52.431Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-20T22:27:52.431Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-20T22:27:52.431Z] info    - Authentication is disabled 
+[2023-03-20T22:27:52.431Z] info    - Not serving HTTPS 
+[2023-03-21T08:25:16.222Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-21T08:25:16.223Z] info  Using user-data-dir ~/.config/Code
+[2023-03-21T08:25:16.254Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-21T08:25:16.254Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-21T08:25:16.254Z] info    - Authentication is disabled 
+[2023-03-21T08:25:16.254Z] info    - Not serving HTTPS 
+[2023-03-21T14:47:34.115Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-21T14:47:34.117Z] info  Using user-data-dir ~/.config/Code
+[2023-03-21T14:47:34.142Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-21T14:47:34.143Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-21T14:47:34.143Z] info    - Authentication is disabled 
+[2023-03-21T14:47:34.143Z] info    - Not serving HTTPS 
+[2023-03-22T00:09:43.634Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-22T00:09:43.635Z] info  Using user-data-dir ~/.config/Code
+[2023-03-22T00:09:43.726Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-22T00:09:43.727Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-22T00:09:43.727Z] info    - Authentication is disabled 
+[2023-03-22T00:09:43.727Z] info    - Not serving HTTPS 
+[2023-03-22T02:32:32.976Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-22T02:32:32.977Z] info  Using user-data-dir ~/.config/Code
+[2023-03-22T02:32:33.029Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-22T02:32:33.029Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-22T02:32:33.029Z] info    - Authentication is disabled 
+[2023-03-22T02:32:33.029Z] info    - Not serving HTTPS 
+[2023-03-22T03:46:09.174Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-22T03:46:09.176Z] info  Using user-data-dir ~/.config/Code
+[2023-03-22T03:46:09.199Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-22T03:46:09.199Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-22T03:46:09.199Z] info    - Authentication is disabled 
+[2023-03-22T03:46:09.199Z] info    - Not serving HTTPS 
+[2023-03-22T05:20:42.332Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-22T05:20:42.333Z] info  Using user-data-dir ~/.config/Code
+[2023-03-22T05:20:42.347Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-22T05:20:42.347Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-22T05:20:42.347Z] info    - Authentication is disabled 
+[2023-03-22T05:20:42.347Z] info    - Not serving HTTPS 
+[2023-03-23T00:57:50.520Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-23T00:57:50.522Z] info  Using user-data-dir ~/.config/Code
+[2023-03-23T00:57:50.542Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-23T00:57:50.543Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-23T00:57:50.543Z] info    - Authentication is disabled 
+[2023-03-23T00:57:50.543Z] info    - Not serving HTTPS 
+[2023-03-23T13:18:50.535Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-23T13:18:50.536Z] info  Using user-data-dir ~/.config/Code
+[2023-03-23T13:18:50.607Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-23T13:18:50.607Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-23T13:18:50.607Z] info    - Authentication is disabled 
+[2023-03-23T13:18:50.607Z] info    - Not serving HTTPS 
+[2023-03-24T06:00:49.393Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-24T06:00:49.395Z] info  Using user-data-dir ~/.config/Code
+[2023-03-24T06:00:49.411Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-24T06:00:49.411Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-24T06:00:49.411Z] info    - Authentication is disabled 
+[2023-03-24T06:00:49.411Z] info    - Not serving HTTPS 
+[2023-03-24T23:35:12.223Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-24T23:35:12.224Z] info  Using user-data-dir ~/.config/Code
+[2023-03-24T23:35:12.251Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-24T23:35:12.251Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-24T23:35:12.251Z] info    - Authentication is disabled 
+[2023-03-24T23:35:12.252Z] info    - Not serving HTTPS 
+[2023-03-25T09:06:04.329Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-25T09:06:04.331Z] info  Using user-data-dir ~/.config/Code
+[2023-03-25T09:06:04.354Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-25T09:06:04.354Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-25T09:06:04.354Z] info    - Authentication is disabled 
+[2023-03-25T09:06:04.354Z] info    - Not serving HTTPS 
+[2023-03-25T11:01:35.998Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-25T11:01:36.000Z] info  Using user-data-dir ~/.config/Code
+[2023-03-25T11:01:36.107Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-25T11:01:36.107Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-25T11:01:36.108Z] info    - Authentication is disabled 
+[2023-03-25T11:01:36.108Z] info    - Not serving HTTPS 
+[2023-03-26T08:30:22.016Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-26T08:30:22.017Z] info  Using user-data-dir ~/.config/Code
+[2023-03-26T08:30:22.032Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-26T08:30:22.032Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-26T08:30:22.032Z] info    - Authentication is disabled 
+[2023-03-26T08:30:22.032Z] info    - Not serving HTTPS 
+[2023-03-27T02:09:37.014Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-27T02:09:37.016Z] info  Using user-data-dir ~/.config/Code
+[2023-03-27T02:09:37.041Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-27T02:09:37.041Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-27T02:09:37.041Z] info    - Authentication is disabled 
+[2023-03-27T02:09:37.041Z] info    - Not serving HTTPS 
+[2023-03-27T15:27:03.675Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-27T15:27:03.677Z] info  Using user-data-dir ~/.config/Code
+[2023-03-27T15:27:03.695Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-27T15:27:03.695Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-27T15:27:03.695Z] info    - Authentication is disabled 
+[2023-03-27T15:27:03.695Z] info    - Not serving HTTPS 
+[2023-03-28T14:44:57.304Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-28T14:44:57.306Z] info  Using user-data-dir ~/.config/Code
+[2023-03-28T14:44:57.331Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-28T14:44:57.331Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-28T14:44:57.331Z] info    - Authentication is disabled 
+[2023-03-28T14:44:57.331Z] info    - Not serving HTTPS 
+[2023-03-28T23:52:51.381Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-28T23:52:51.382Z] info  Using user-data-dir ~/.config/Code
+[2023-03-28T23:52:51.443Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-28T23:52:51.443Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-28T23:52:51.443Z] info    - Authentication is disabled 
+[2023-03-28T23:52:51.443Z] info    - Not serving HTTPS 
+[2023-03-29T10:40:50.148Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-29T10:40:50.150Z] info  Using user-data-dir ~/.config/Code
+[2023-03-29T10:40:50.168Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-29T10:40:50.168Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-29T10:40:50.168Z] info    - Authentication is disabled 
+[2023-03-29T10:40:50.168Z] info    - Not serving HTTPS 
+[2023-03-29T22:45:33.948Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-03-29T22:45:33.950Z] info  Using user-data-dir ~/.config/Code
+[2023-03-29T22:45:33.968Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-03-29T22:45:33.969Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-03-29T22:45:33.969Z] info    - Authentication is disabled 
+[2023-03-29T22:45:33.969Z] info    - Not serving HTTPS 
+[2023-04-02T13:36:02.515Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-02T13:36:02.517Z] info  Using user-data-dir ~/.config/Code
+[2023-04-02T13:36:02.536Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-02T13:36:02.537Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-02T13:36:02.537Z] info    - Authentication is disabled 
+[2023-04-02T13:36:02.537Z] info    - Not serving HTTPS 
+[2023-04-03T01:37:07.176Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-03T01:37:07.178Z] info  Using user-data-dir ~/.config/Code
+[2023-04-03T01:37:07.196Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-03T01:37:07.197Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-03T01:37:07.197Z] info    - Authentication is disabled 
+[2023-04-03T01:37:07.197Z] info    - Not serving HTTPS 
+[2023-04-03T14:16:50.711Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-03T14:16:50.713Z] info  Using user-data-dir ~/.config/Code
+[2023-04-03T14:16:50.734Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-03T14:16:50.734Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-03T14:16:50.734Z] info    - Authentication is disabled 
+[2023-04-03T14:16:50.734Z] info    - Not serving HTTPS 
+[2023-04-04T00:09:09.417Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-04T00:09:09.419Z] info  Using user-data-dir ~/.config/Code
+[2023-04-04T00:09:09.440Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-04T00:09:09.440Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-04T00:09:09.440Z] info    - Authentication is disabled 
+[2023-04-04T00:09:09.440Z] info    - Not serving HTTPS 
+[2023-04-04T02:17:19.804Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-04T02:17:19.805Z] info  Using user-data-dir ~/.config/Code
+[2023-04-04T02:17:19.822Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-04T02:17:19.822Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-04T02:17:19.822Z] info    - Authentication is disabled 
+[2023-04-04T02:17:19.822Z] info    - Not serving HTTPS 
+[2023-04-04T13:40:42.686Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-04T13:40:42.687Z] info  Using user-data-dir ~/.config/Code
+[2023-04-04T13:40:42.701Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-04T13:40:42.701Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-04T13:40:42.701Z] info    - Authentication is disabled 
+[2023-04-04T13:40:42.701Z] info    - Not serving HTTPS 
+[2023-04-04T23:43:17.821Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-04T23:43:17.824Z] info  Using user-data-dir ~/.config/Code
+[2023-04-04T23:43:17.841Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-04T23:43:17.842Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-04T23:43:17.842Z] info    - Authentication is disabled 
+[2023-04-04T23:43:17.842Z] info    - Not serving HTTPS 
+[2023-04-07T12:04:10.687Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-07T12:04:10.688Z] info  Using user-data-dir ~/.config/Code
+[2023-04-07T12:04:10.703Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-07T12:04:10.703Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-07T12:04:10.703Z] info    - Authentication is disabled 
+[2023-04-07T12:04:10.703Z] info    - Not serving HTTPS 
+[2023-04-07T23:51:43.137Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-07T23:51:43.139Z] info  Using user-data-dir ~/.config/Code
+[2023-04-07T23:51:43.162Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-07T23:51:43.162Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-07T23:51:43.162Z] info    - Authentication is disabled 
+[2023-04-07T23:51:43.162Z] info    - Not serving HTTPS 
+[2023-04-08T07:37:27.278Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-08T07:37:27.279Z] info  Using user-data-dir ~/.config/Code
+[2023-04-08T07:37:27.302Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-08T07:37:27.302Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-08T07:37:27.302Z] info    - Authentication is disabled 
+[2023-04-08T07:37:27.302Z] info    - Not serving HTTPS 
+[2023-04-10T03:31:40.068Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-10T03:31:40.070Z] info  Using user-data-dir ~/.config/Code
+[2023-04-10T03:31:40.093Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-10T03:31:40.093Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-10T03:31:40.093Z] info    - Authentication is disabled 
+[2023-04-10T03:31:40.093Z] info    - Not serving HTTPS 
+[2023-04-12T11:39:21.355Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-12T11:39:21.357Z] info  Using user-data-dir ~/.config/Code
+[2023-04-12T11:39:21.381Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-12T11:39:21.382Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-12T11:39:21.382Z] info    - Authentication is disabled 
+[2023-04-12T11:39:21.382Z] info    - Not serving HTTPS 
+[2023-04-14T01:30:44.108Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-14T01:30:44.111Z] info  Using user-data-dir ~/.config/Code
+[2023-04-14T01:30:44.134Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-14T01:30:44.134Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-14T01:30:44.134Z] info    - Authentication is disabled 
+[2023-04-14T01:30:44.134Z] info    - Not serving HTTPS 
+[2023-04-15T08:47:00.191Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-15T08:47:00.193Z] info  Using user-data-dir ~/.config/Code
+[2023-04-15T08:47:00.218Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-15T08:47:00.218Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-15T08:47:00.218Z] info    - Authentication is disabled 
+[2023-04-15T08:47:00.218Z] info    - Not serving HTTPS 
+[2023-04-18T14:33:21.805Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-18T14:33:21.807Z] info  Using user-data-dir ~/.config/Code
+[2023-04-18T14:33:21.832Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-18T14:33:21.832Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-18T14:33:21.832Z] info    - Authentication is disabled 
+[2023-04-18T14:33:21.832Z] info    - Not serving HTTPS 
+[22:53:14] Extension host agent started.
+[22:53:14] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[22:53:14] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[22:53:14] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[22:53:14] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[22:53:14] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[22:53:16] [127.0.0.1][4b9f22c4][ManagementConnection] New connection established.
+[22:53:18] [127.0.0.1][54ed7761][ExtensionHostConnection] New connection established.
+[22:53:19] [127.0.0.1][54ed7761][ExtensionHostConnection] <638> Launched Extension Host Process.
+[22:53:44] [127.0.0.1][54ed7761][ExtensionHostConnection] The client has reconnected.
+[22:56:21] [127.0.0.1][4b9f22c4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:56:21] [127.0.0.1][54ed7761][ExtensionHostConnection] <638> Extension Host Process exited with code: 0, signal: null.
+[22:56:30] [127.0.0.1][c307dd4e][ManagementConnection] New connection established.
+[22:56:34] [127.0.0.1][f5ce7682][ExtensionHostConnection] New connection established.
+[22:56:35] [127.0.0.1][f5ce7682][ExtensionHostConnection] <900> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 10 chars and 1 size events
+[22:58:31] [127.0.0.1][c307dd4e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:58:31] [127.0.0.1][f5ce7682][ExtensionHostConnection] <900> Extension Host Process exited with code: 0, signal: null.
+[2023-04-19T00:49:22.251Z] info  code-server 4.8.1 cc8ce3b3c642b162daf39ad1d94ab778282463ef
+[2023-04-19T00:49:22.253Z] info  Using user-data-dir ~/.config/Code
+[2023-04-19T00:49:22.276Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-04-19T00:49:22.276Z] info  HTTP server listening on http://127.0.0.1:8889/ 
+[2023-04-19T00:49:22.276Z] info    - Authentication is disabled 
+[2023-04-19T00:49:22.276Z] info    - Not serving HTTPS 
+[09:13:51] Extension host agent started.
+[09:13:51] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[09:13:51] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[09:13:51] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[09:13:51] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[09:13:51] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[09:13:53] [127.0.0.1][ce6b3cf7][ManagementConnection] New connection established.
+[09:13:56] [127.0.0.1][4eed3580][ExtensionHostConnection] New connection established.
+[09:13:57] [127.0.0.1][4eed3580][ExtensionHostConnection] <794> Launched Extension Host Process.
+[09:18:27] [127.0.0.1][4eed3580][ExtensionHostConnection] The client has reconnected.
+[09:18:27] [127.0.0.1][ce6b3cf7][ManagementConnection] The client has reconnected.
+[09:20:00] [127.0.0.1][ce6b3cf7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:20:00] [127.0.0.1][4eed3580][ExtensionHostConnection] <794> Extension Host Process exited with code: 0, signal: null.

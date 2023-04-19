@@ -1,0 +1,1119 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "3"
+WARNING:pygls.protocol:Cancel notification for unknown message id "15"
+WARNING:pygls.protocol:Cancel notification for unknown message id "18"
+WARNING:pygls.protocol:Cancel notification for unknown message id "19"
+WARNING:pygls.protocol:Cancel notification for unknown message id "20"
+WARNING:pygls.protocol:Cancel notification for unknown message id "21"
+WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+WARNING:pygls.protocol:Cancel notification for unknown message id "23"
+WARNING:pygls.protocol:Cancel notification for unknown message id "34"
+WARNING:pygls.protocol:Cancel notification for unknown message id "42"
+ERROR:pygls.protocol:Failed to handle request 53 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=16:15
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 368, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 280, in goto
+    return self.infer(line, column, only_stubs=only_stubs, prefer_stubs=prefer_stubs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 247, in infer
+    values = helpers.infer(self._inference_state, context, leaf)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 176, in infer
+    definitions = infer_call_of_leaf(context, leaf)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/helpers.py", line 82, in infer_call_of_leaf
+    index = power.children.index(trailer)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+[Error - 10:19:26 PM] Request textDocument/hover failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 368, in help\n    definitions = self.goto(line, column, follow_imports=True)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 280, in goto\n    return self.infer(line, column, only_stubs=only_stubs, prefer_stubs=prefer_stubs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 247, in infer\n    values = helpers.infer(self._inference_state, context, leaf)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 176, in infer\n    definitions = infer_call_of_leaf(context, leaf)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/helpers.py", line 82, in infer_call_of_leaf\n    index = power.children.index(trailer)\n']}
+ERROR:pygls.protocol:Failed to handle request 55 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=16:15
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 368, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 280, in goto
+    return self.infer(line, column, only_stubs=only_stubs, prefer_stubs=prefer_stubs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 247, in infer
+    values = helpers.infer(self._inference_state, context, leaf)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 176, in infer
+    definitions = infer_call_of_leaf(context, leaf)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/helpers.py", line 82, in infer_call_of_leaf
+    index = power.children.index(trailer)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+[Error - 10:19:28 PM] Request textDocument/hover failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 368, in help\n    definitions = self.goto(line, column, follow_imports=True)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 280, in goto\n    return self.infer(line, column, only_stubs=only_stubs, prefer_stubs=prefer_stubs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 247, in infer\n    values = helpers.infer(self._inference_state, context, leaf)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 176, in infer\n    definitions = infer_call_of_leaf(context, leaf)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/helpers.py", line 82, in infer_call_of_leaf\n    index = power.children.index(trailer)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "72"
+WARNING:pygls.protocol:Cancel notification for unknown message id "92"
+WARNING:pygls.protocol:Cancel notification for unknown message id "113"
+WARNING:pygls.protocol:Cancel notification for unknown message id "115"
+WARNING:pygls.protocol:Cancel notification for unknown message id "120"
+WARNING:pygls.protocol:Cancel notification for unknown message id "128"
+WARNING:pygls.protocol:Cancel notification for unknown message id "165"
+WARNING:pygls.protocol:Cancel notification for unknown message id "166"
+WARNING:pygls.protocol:Cancel notification for unknown message id "167"
+WARNING:pygls.protocol:Cancel notification for unknown message id "170"
+WARNING:pygls.protocol:Cancel notification for unknown message id "175"
+WARNING:pygls.protocol:Cancel notification for unknown message id "174"
+WARNING:pygls.protocol:Cancel notification for unknown message id "178"
+WARNING:pygls.protocol:Cancel notification for unknown message id "184"
+WARNING:pygls.protocol:Cancel notification for unknown message id "186"
+WARNING:pygls.protocol:Cancel notification for unknown message id "194"
+WARNING:pygls.protocol:Cancel notification for unknown message id "195"
+WARNING:pygls.protocol:Cancel notification for unknown message id "196"
+WARNING:pygls.protocol:Cancel notification for unknown message id "202"
+WARNING:pygls.protocol:Cancel notification for unknown message id "203"
+WARNING:pygls.protocol:Cancel notification for unknown message id "213"
+WARNING:pygls.protocol:Cancel notification for unknown message id "214"
+WARNING:pygls.protocol:Cancel notification for unknown message id "216"
+WARNING:pygls.protocol:Cancel notification for unknown message id "221"
+WARNING:pygls.protocol:Cancel notification for unknown message id "222"
+WARNING:pygls.protocol:Cancel notification for unknown message id "223"
+WARNING:pygls.protocol:Cancel notification for unknown message id "224"
+WARNING:pygls.protocol:Cancel notification for unknown message id "225"
+WARNING:pygls.protocol:Cancel notification for unknown message id "226"
+WARNING:pygls.protocol:Cancel notification for unknown message id "227"
+WARNING:pygls.protocol:Cancel notification for unknown message id "228"
+WARNING:pygls.protocol:Cancel notification for unknown message id "236"
+WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+WARNING:pygls.protocol:Cancel notification for unknown message id "243"
+WARNING:pygls.protocol:Cancel notification for unknown message id "242"
+WARNING:pygls.protocol:Cancel notification for unknown message id "261"
+WARNING:pygls.protocol:Cancel notification for unknown message id "263"
+WARNING:pygls.protocol:Cancel notification for unknown message id "265"
+WARNING:pygls.protocol:Cancel notification for unknown message id "267"
+WARNING:pygls.protocol:Cancel notification for unknown message id "269"
+ERROR:pygls.protocol:Failed to handle request 276 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=74:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+[Error - 10:33:01 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "294"
+WARNING:pygls.protocol:Cancel notification for unknown message id "298"
+WARNING:pygls.protocol:Cancel notification for unknown message id "320"
+WARNING:pygls.protocol:Cancel notification for unknown message id "328"
+WARNING:pygls.protocol:Cancel notification for unknown message id "343"
+WARNING:pygls.protocol:Cancel notification for unknown message id "356"
+WARNING:pygls.protocol:Cancel notification for unknown message id "357"
+WARNING:pygls.protocol:Cancel notification for unknown message id "358"
+WARNING:pygls.protocol:Cancel notification for unknown message id "373"
+WARNING:pygls.protocol:Cancel notification for unknown message id "380"
+WARNING:pygls.protocol:Cancel notification for unknown message id "401"
+WARNING:pygls.protocol:Cancel notification for unknown message id "412"
+WARNING:pygls.protocol:Cancel notification for unknown message id "415"
+WARNING:pygls.protocol:Cancel notification for unknown message id "423"
+WARNING:pygls.protocol:Cancel notification for unknown message id "424"
+WARNING:pygls.protocol:Cancel notification for unknown message id "425"
+WARNING:pygls.protocol:Cancel notification for unknown message id "440"
+WARNING:pygls.protocol:Cancel notification for unknown message id "450"
+WARNING:pygls.protocol:Cancel notification for unknown message id "470"
+ERROR:pygls.protocol:Failed to handle request 475 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=58:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+[Error - 10:44:36 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 476 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=58:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+[Error - 10:44:37 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "479"
+ERROR:pygls.protocol:Failed to handle request 482 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=58:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+[Error - 10:44:58 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "486"
+WARNING:pygls.protocol:Cancel notification for unknown message id "487"
+WARNING:pygls.protocol:Cancel notification for unknown message id "494"
+WARNING:pygls.protocol:Cancel notification for unknown message id "495"
+WARNING:pygls.protocol:Cancel notification for unknown message id "499"
+WARNING:pygls.protocol:Cancel notification for unknown message id "501"
+WARNING:pygls.protocol:Cancel notification for unknown message id "502"
+WARNING:pygls.protocol:Cancel notification for unknown message id "503"
+WARNING:pygls.protocol:Cancel notification for unknown message id "504"
+WARNING:pygls.protocol:Cancel notification for unknown message id "511"
+WARNING:pygls.protocol:Cancel notification for unknown message id "512"
+WARNING:pygls.protocol:Cancel notification for unknown message id "515"
+WARNING:pygls.protocol:Cancel notification for unknown message id "524"
+WARNING:pygls.protocol:Cancel notification for unknown message id "526"
+WARNING:pygls.protocol:Cancel notification for unknown message id "527"
+WARNING:pygls.protocol:Cancel notification for unknown message id "544"
+WARNING:pygls.protocol:Cancel notification for unknown message id "545"
+WARNING:pygls.protocol:Cancel notification for unknown message id "547"
+WARNING:pygls.protocol:Cancel notification for unknown message id "548"
+WARNING:pygls.protocol:Cancel notification for unknown message id "549"
+WARNING:pygls.protocol:Cancel notification for unknown message id "552"
+WARNING:pygls.protocol:Cancel notification for unknown message id "551"
+WARNING:pygls.protocol:Cancel notification for unknown message id "558"
+WARNING:pygls.protocol:Cancel notification for unknown message id "559"
+WARNING:pygls.protocol:Cancel notification for unknown message id "576"
+WARNING:pygls.protocol:Cancel notification for unknown message id "587"
+WARNING:pygls.protocol:Cancel notification for unknown message id "589"
+WARNING:pygls.protocol:Cancel notification for unknown message id "590"
+WARNING:pygls.protocol:Cancel notification for unknown message id "609"
+WARNING:pygls.protocol:Cancel notification for unknown message id "616"
+WARNING:pygls.protocol:Cancel notification for unknown message id "617"
+WARNING:pygls.protocol:Cancel notification for unknown message id "618"
+WARNING:pygls.protocol:Cancel notification for unknown message id "632"
+WARNING:pygls.protocol:Cancel notification for unknown message id "643"
+WARNING:pygls.protocol:Cancel notification for unknown message id "642"
+WARNING:pygls.protocol:Cancel notification for unknown message id "646"
+WARNING:pygls.protocol:Cancel notification for unknown message id "647"
+WARNING:pygls.protocol:Cancel notification for unknown message id "656"
+WARNING:pygls.protocol:Cancel notification for unknown message id "671"
+WARNING:pygls.protocol:Cancel notification for unknown message id "675"
+WARNING:pygls.protocol:Cancel notification for unknown message id "676"
+WARNING:pygls.protocol:Cancel notification for unknown message id "679"
+WARNING:pygls.protocol:Cancel notification for unknown message id "683"
+WARNING:pygls.protocol:Cancel notification for unknown message id "686"
+WARNING:pygls.protocol:Cancel notification for unknown message id "693"
+WARNING:pygls.protocol:Cancel notification for unknown message id "696"
+WARNING:pygls.protocol:Cancel notification for unknown message id "710"
+WARNING:pygls.protocol:Cancel notification for unknown message id "724"
+WARNING:pygls.protocol:Cancel notification for unknown message id "729"
+WARNING:pygls.protocol:Cancel notification for unknown message id "741"
+WARNING:pygls.protocol:Cancel notification for unknown message id "744"
+WARNING:pygls.protocol:Cancel notification for unknown message id "746"
+WARNING:pygls.protocol:Cancel notification for unknown message id "760"
+WARNING:pygls.protocol:Cancel notification for unknown message id "765"
+WARNING:pygls.protocol:Cancel notification for unknown message id "781"
+WARNING:pygls.protocol:Cancel notification for unknown message id "782"
+WARNING:pygls.protocol:Cancel notification for unknown message id "787"
+WARNING:pygls.protocol:Cancel notification for unknown message id "788"
+WARNING:pygls.protocol:Cancel notification for unknown message id "789"
+WARNING:pygls.protocol:Cancel notification for unknown message id "792"
+WARNING:pygls.protocol:Cancel notification for unknown message id "811"
+WARNING:pygls.protocol:Cancel notification for unknown message id "831"
+WARNING:pygls.protocol:Cancel notification for unknown message id "835"
+WARNING:pygls.protocol:Cancel notification for unknown message id "868"
+WARNING:pygls.protocol:Cancel notification for unknown message id "878"
+WARNING:pygls.protocol:Cancel notification for unknown message id "880"
+WARNING:pygls.protocol:Cancel notification for unknown message id "879"
+WARNING:pygls.protocol:Cancel notification for unknown message id "881"
+ERROR:pygls.protocol:Failed to handle request 893 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=86:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+[Error - 10:54:01 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "912"
+WARNING:pygls.protocol:Cancel notification for unknown message id "913"
+WARNING:pygls.protocol:Cancel notification for unknown message id "923"
+WARNING:pygls.protocol:Cancel notification for unknown message id "936"
+WARNING:pygls.protocol:Cancel notification for unknown message id "945"
+WARNING:pygls.protocol:Cancel notification for unknown message id "946"
+WARNING:pygls.protocol:Cancel notification for unknown message id "949"
+WARNING:pygls.protocol:Cancel notification for unknown message id "951"
+WARNING:pygls.protocol:Cancel notification for unknown message id "961"
+WARNING:pygls.protocol:Cancel notification for unknown message id "965"
+WARNING:pygls.protocol:Cancel notification for unknown message id "967"
+WARNING:pygls.protocol:Cancel notification for unknown message id "978"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1002"
+ERROR:pygls.protocol:Failed to handle request 1004 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=94:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 95 ('\n').
+[Error - 10:59:13 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 95 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1005"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1023"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1028"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1036"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1040"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1042"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1043"
+ERROR:pygls.protocol:Failed to handle request 1061 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=106:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 107 ('\n').
+[Error - 10:59:48 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 107 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1071"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1073"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1074"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1082"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1087"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1086"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1090"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1091"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1097"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1121"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1138"
+ERROR:pygls.protocol:Failed to handle request 1152 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=29:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 30 ('\n').
+[Error - 11:06:14 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 30 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1152"
+ERROR:pygls.protocol:Failed to handle request 1158 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=32:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 33 ('\n').
+[Error - 11:06:36 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 33 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1162"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1163"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1174"
+ERROR:pygls.protocol:Failed to handle request 1185 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=36:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 37 ('\n').
+[Error - 11:07:20 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 37 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1197"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1199"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1209"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1212"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1216"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1217"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1221"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1224"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1223"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1225"
+ERROR:pygls.protocol:Failed to handle request 1228 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=46:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 47 ('\n').
+[Error - 11:08:51 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 47 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1228"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1230"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1235"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1236"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1237"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1240"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1244"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1243"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1245"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1249"
+ERROR:pygls.protocol:Failed to handle request 1294 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=52:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 53 ('\n').
+[Error - 11:11:15 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 53 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1301"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1337"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1353"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1365"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1366"
+ERROR:pygls.protocol:Failed to handle request 1391 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') range=16:16-16:16 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 552, in code_action
+    new_name=extract_var, **jedi_lines_extract
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 617, in extract_variable
+    new_name, (line, column), until_pos
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+[Error - 11:27:48 PM] Request textDocument/codeAction failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 552, in code_action\n    new_name=extract_var, **jedi_lines_extract\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 617, in extract_variable\n    new_name, (line, column), until_pos\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1408"
+ERROR:pygls.protocol:Failed to handle request 1417 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=32:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 33 ('\n').
+[Error - 11:29:18 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 33 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1432"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1458"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1468"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1470"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1472"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1485"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1486"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1489"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1504"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1505"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1531"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1532"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1549"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1550"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1572"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1576"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1578"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1580"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1582"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1591"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1594"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1596"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1604"
+ERROR:pygls.protocol:Failed to handle request 1605 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=21:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+[Error - 11:30:44 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1606 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=21:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+[Error - 11:30:44 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1610 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=21:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+[Error - 11:30:48 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1613 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=21:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+[Error - 11:30:53 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1622 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=23:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 24 ('\n').
+[Error - 11:30:58 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 24 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1625"
+ERROR:pygls.protocol:Failed to handle request 1632 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=31:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 32 ('\n').
+[Error - 11:31:06 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 32 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1653"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1656"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1654"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1660"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1672"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1697"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1699"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1720"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1736"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1750"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1754"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1771"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1790"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1796"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1819"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1829"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1832"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1839"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1841"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1840"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1844"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1843"
+ERROR:pygls.protocol:Failed to handle request 1846 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=66:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 67 ('\n').
+[Error - 11:35:52 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 67 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1860"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1882"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1887"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1886"
+ERROR:pygls.protocol:Failed to handle request 1888 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=78:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 79 ('\n').
+[Error - 11:36:49 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 79 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1894 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=80:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 81 ('\n').
+[Error - 11:36:50 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 81 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1897"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1898"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1899"
+ERROR:pygls.protocol:Failed to handle request 1903 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=84:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 85 ('\n').
+[Error - 11:36:56 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 85 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1929 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=86:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+[Error - 11:38:25 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1930 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=86:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+[Error - 11:38:25 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1934"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1937"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1936"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1946"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1952"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1951"
+ERROR:pygls.protocol:Failed to handle request 1955 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=95:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 96 ('\n').
+[Error - 11:38:38 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 96 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 1957 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=97:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 98 ('\n').
+WARNING:pygls.protocol:Cancel notification for unknown message id "1957"
+[Error - 11:38:38 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 98 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1967"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1969"
+ERROR:pygls.protocol:Failed to handle request 1974 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=101:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 102 ('\n').
+[Error - 11:38:44 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 102 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1977"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1985"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1996"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1999"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2001"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2003"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2008"
+ERROR:pygls.protocol:Failed to handle request 2009 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=111:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 112 ('\n').
+[Error - 11:39:57 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 112 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2009"
+ERROR:pygls.protocol:Failed to handle request 2011 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=108:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 109 ('\n').
+[Error - 11:40:00 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 109 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2014"
+ERROR:pygls.protocol:Failed to handle request 2017 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=109:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 110 ('\n').
+[Error - 11:40:06 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 110 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2017"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2018"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2021"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2024"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2026"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2028"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2031"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2029"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2033"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2032"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2036"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2035"
+ERROR:pygls.protocol:Failed to handle request 2038 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=115:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 116 ('\n').
+[Error - 11:40:12 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 116 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2037"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2038"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2043"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2061"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2062"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2063"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2066"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2064"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2067"
+ERROR:pygls.protocol:Failed to handle request 2068 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=116:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 117 ('\n').
+[Error - 11:40:25 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 117 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2068"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2069"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2070"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2073"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2075"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2076"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2092"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2124"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2130"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2133"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2142"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2150"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2152"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2179"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2180"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2182"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2183"
+ERROR:pygls.protocol:Failed to handle request 2187 completionItem/resolve label='lib' kind=<CompletionItemKind.Module: 9> tags=None detail=None documentation=None deprecated=None preselect=None sort_text='v0' filter_text='lib' insert_text='lib' insert_text_format=<InsertTextFormat.PlainText: 1> insert_text_mode=None text_edit=None additional_text_edits=None commit_characters=None command=None data=None
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 173, in completion_item_resolve
+    params, markup_kind=markup_kind
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 599, in lsp_completion_item_resolve
+    item.detail = next(get_full_signatures(completion), completion.name)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 513, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 582, in get_signatures
+    for s in self._get_signatures()
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    names = convert_names([self._name], prefer_stubs=True)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 152, in convert_names
+    return _python_to_stub_names(names, fallback_to_python=prefer_stubs)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper
+    return list(func(*args, **kwargs))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 126, in _python_to_stub_names
+    for x in _python_to_stub_names([n], fallback_to_python=fallback_to_python):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper
+    return list(func(*args, **kwargs))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 132, in _python_to_stub_names
+    v = name.get_defining_qualified_value()
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 251, in get_defining_qualified_value
+    if context.is_module() or context.is_class():
+AttributeError: 'NoneType' object has no attribute 'is_module'
+[Error - 11:45:20 PM] Request completionItem/resolve failed.
+  Message: AttributeError: 'NoneType' object has no attribute 'is_module'
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 173, in completion_item_resolve\n    params, markup_kind=markup_kind\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 599, in lsp_completion_item_resolve\n    item.detail = next(get_full_signatures(completion), completion.name)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 513, in get_full_signatures\n    signatures = name.get_signatures()\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 582, in get_signatures\n    for s in self._get_signatures()\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures\n    names = convert_names([self._name], prefer_stubs=True)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 152, in convert_names\n    return _python_to_stub_names(names, fallback_to_python=prefer_stubs)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper\n    return list(func(*args, **kwargs))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 126, in _python_to_stub_names\n    for x in _python_to_stub_names([n], fallback_to_python=fallback_to_python):\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper\n    return list(func(*args, **kwargs))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 132, in _python_to_stub_names\n    v = name.get_defining_qualified_value()\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 251, in get_defining_qualified_value\n    if context.is_module() or context.is_class():\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2210"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2244"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2255"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2258"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2266"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2285"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2320"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2326"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2332"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2344"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2343"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2347"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2348"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2345"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2350"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2349"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2352"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2351"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2354"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2381"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2380"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2379"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2387"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2390"
+ERROR:pygls.protocol:Failed to handle request 2403 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=34:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 35 ('\n').
+[Error - 11:57:14 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 35 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 2404 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=34:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 35 ('\n').
+[Error - 11:57:26 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 35 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2410"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2419"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2421"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2423"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2429"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2430"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2437"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2441"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2443"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2458"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2462"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2464"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2470"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2478"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2479"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2481"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2485"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2497"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2500"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2514"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2515"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2532"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2544"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2573"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2579"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2614"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2626"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2629"
+ERROR:pygls.protocol:Failed to handle request 2630 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=74:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+[Error - 12:21:30 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 2631 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=74:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+[Error - 12:21:31 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2632"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2652"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2662"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2665"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2681"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2691"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2696"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2711"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2728"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2729"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2730"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2731"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2736"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2759"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2784"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2799"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2814"
+ERROR:pygls.protocol:Failed to handle request 2874 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=70:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 71 ('\n').
+[Error - 12:28:53 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 71 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2874"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2909"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2921"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2951"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2959"
+ERROR:pygls.protocol:Failed to handle request 2960 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=59:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 60 ('\n').
+[Error - 12:29:05 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 60 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+ERROR:pygls.protocol:Failed to handle request 2961 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///project/ev_sdk/src/ji.py') position=59:0
+Traceback (most recent call last):
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover
+    column=1 if jedi_lines[1] == 0 else jedi_lines[1],
+  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper
+    column, line_len, line, line_string))
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 60 ('\n').
+[Error - 12:29:08 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 60 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 354, in hover\n    column=1 if jedi_lines[1] == 0 else jedi_lines[1],\n', '  File "/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 486, in wrapper\n    column, line_len, line, line_string))\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "2971"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2972"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2973"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2974"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2988"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2989"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2999"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3000"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3001"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3016"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3018"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3021"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3034"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3047"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3051"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3056"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3057"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3060"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3061"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3066"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3117"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3123"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3130"

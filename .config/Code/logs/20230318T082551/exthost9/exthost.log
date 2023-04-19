@@ -1,0 +1,31 @@
+[2023-03-18 16:14:03.793] [exthost] [info] Extension host with pid 18462 started
+[2023-03-18 16:14:03.798] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock'
+[2023-03-18 16:14:03.811] [exthost] [error] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at b (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:3472)
+    at async p (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:3113)
+    at async L._getWorkspaceStorageURI (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:1788)
+    at async L._getOrCreateWorkspaceStoragePath (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:145449)
+[2023-03-18 16:14:03.811] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 16:14:03.837] [exthost] [error] SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at b (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:3472)
+	at async f (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:3727)
+	at async L._getWorkspaceStorageURI (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:97:1788)
+	at async L._getOrCreateWorkspaceStoragePath (/cvmart-ide/vscode/vscode/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:92:145449)
+[2023-03-18 16:14:03.837] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Could not read pid of lock holder.
+[2023-03-18 16:14:03.837] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Deleting a stale lock.
+[2023-03-18 16:14:03.855] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Lock acquired.
+[2023-03-18 16:14:03.994] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-18 16:14:03.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-18 16:14:03.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-18 16:14:05.975] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 16:14:05.975] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 16:14:05.976] [exthost] [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 16:14:07.167] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-18 16:14:07.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-18 16:14:14.003] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 16:14:14.004] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 16:14:14.005] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 16:14:14.005] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 16:14:14.006] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'

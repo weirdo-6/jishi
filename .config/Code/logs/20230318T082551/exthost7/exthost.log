@@ -1,0 +1,26 @@
+[2023-03-18 13:10:43.180] [exthost] [info] Extension host with pid 13232 started
+[2023-03-18 13:10:43.183] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock'
+[2023-03-18 13:10:43.189] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 13:10:43.192] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': The lock does not look stale, elapsed: 488 ms, giving up.
+[2023-03-18 13:10:43.193] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock'
+[2023-03-18 13:10:43.193] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 13:10:43.193] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock': The lock does not look stale, elapsed: 66 ms, giving up.
+[2023-03-18 13:10:43.198] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Lock acquired.
+[2023-03-18 13:10:43.579] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 13:10:43.581] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 13:10:43.581] [exthost] [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 13:10:43.582] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-18 13:10:43.582] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-18 13:10:43.582] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-18 13:10:45.789] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2023-03-18 13:10:46.179] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-18 13:10:46.179] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-18 13:10:52.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 13:10:52.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 13:10:52.693] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 13:10:52.693] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 13:10:52.693] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 13:10:52.693] [exthost] [info] Eager extensions activated
+[2023-03-18 13:17:38.985] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-03-18 13:17:38.986] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-18 13:17:39.720] [exthost] [info] Extension host with pid 13232 exiting with code 0

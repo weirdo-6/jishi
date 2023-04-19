@@ -1,0 +1,139 @@
+[2023-03-17 20:23:35.835] [remoteagent] [info] 
+
+
+
+
+[2023-03-17 20:23:36.129] [remoteagent] [info] Extension host agent started.
+[2023-03-17 20:23:36.418] [remoteagent] [info] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[2023-03-17 20:23:36.420] [remoteagent] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[2023-03-17 20:23:36.440] [remoteagent] [info] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[2023-03-17 20:23:36.521] [remoteagent] [info] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[2023-03-17 20:23:36.527] [remoteagent] [info] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2023-03-17 20:23:40.141] [remoteagent] [info] [127.0.0.1][d36c1b7d][ManagementConnection] New connection established.
+[2023-03-17 20:23:41.989] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] New connection established.
+[2023-03-17 20:23:42.184] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] <931> Launched Extension Host Process.
+[2023-03-17 20:23:47.879] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /cvmart-ide/vscode/vscode/lib/vscode/node_modules/keytar/lib/keytar.js
+- /cvmart-ide/vscode/vscode/lib/vscode/out/bootstrap-amd.js
+- /cvmart-ide/vscode/vscode/out/node/util.js
+- /cvmart-ide/vscode/vscode/out/node/cli.js
+- /cvmart-ide/vscode/vscode/out/node/entry.js
+[2023-03-17 20:24:58.640] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] New connection established.
+[2023-03-17 20:25:00.721] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] New connection established.
+[2023-03-17 20:25:00.921] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] <1056> Launched Extension Host Process.
+[2023-03-17 20:29:08.358] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:29:08.362] [remoteagent] [info] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[2023-03-17 20:29:09.260] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 9
+[2023-03-17 20:29:09.261] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 10
+[2023-03-17 20:29:09.261] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 11
+[2023-03-17 20:29:09.261] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 12
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 13
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 14
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 15
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 16
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 17
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 18
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 19
+[2023-03-17 20:29:09.262] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 20
+[2023-03-17 20:29:09.263] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 21
+[2023-03-17 20:29:09.263] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 22
+[2023-03-17 20:29:09.263] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 23
+[2023-03-17 20:29:09.263] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 24
+[2023-03-17 20:29:12.421] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:29:12.487] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:31:42.634] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:31:42.646] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:32:11.672] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:32:11.764] [remoteagent] [info] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[2023-03-17 20:33:44.699] [remoteagent] [info] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[2023-03-17 20:33:44.704] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:34:12.864] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:34:12.947] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:34:47.523] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:34:47.836] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:35:17.211] [remoteagent] [info] [127.0.0.1][d36c1b7d][ManagementConnection] The client has reconnected.
+[2023-03-17 20:35:17.235] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:39:12.961] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:39:12.986] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:43:25.819] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:43:25.847] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:44:14.997] [remoteagent] [info] [127.0.0.1][788f435d][ExtensionHostConnection] <931> Extension Host Process exited with code: 0, signal: null.
+[2023-03-17 20:47:49.643] [remoteagent] [info] [127.0.0.1][1e2bc6e5][ManagementConnection] The client has reconnected.
+[2023-03-17 20:47:49.658] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 20:59:15.312] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] New connection established.
+[2023-03-17 20:59:16.692] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] New connection established.
+[2023-03-17 20:59:16.887] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] <3353> Launched Extension Host Process.
+[2023-03-17 21:04:14.112] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:04:14.296] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:04:16.664] [remoteagent] [info] [127.0.0.1][d47e813a][ExtensionHostConnection] <1056> Extension Host Process exited with code: 0, signal: null.
+[2023-03-17 21:08:54.007] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:08:54.262] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:28:11.538] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:28:32.175] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:34:46.317] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:34:46.355] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:39:53.780] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:39:54.890] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:44:04.272] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:44:04.282] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:50:38.156] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:50:38.168] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:52:34.439] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 21:52:38.618] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:57:43.947] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 21:57:45.030] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:04:33.329] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:04:34.321] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:09:30.034] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:09:37.616] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:14:03.433] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:14:03.452] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:18:05.917] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:18:05.919] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:22:11.768] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:22:11.773] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:22:45.049] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:22:45.052] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:28:18.561] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:28:19.742] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:33:55.659] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:33:55.892] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:40:32.780] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:40:33.883] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:44:35.380] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:44:35.493] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:48:58.578] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-03-17 22:49:21.098] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:49:21.495] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:52:49.631] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 22:52:51.220] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:58:21.082] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 22:58:25.479] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:04:05.803] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:04:07.089] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:08:51.340] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:08:51.838] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:13:00.014] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:13:00.325] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:17:14.421] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:17:14.830] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:22:55.246] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:22:55.509] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:22:51.578] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:22:53.260] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:27:54.673] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:27:54.994] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:32:05.384] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-03-17 23:32:43.884] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2023-03-17 23:33:49.396] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:33:49.683] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:37:57.557] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:37:57.862] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:47:08.356] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:47:08.636] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:52:34.332] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:52:34.625] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-17 23:52:56.994] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] The client has reconnected.
+[2023-03-17 23:52:59.044] [remoteagent] [info] [127.0.0.1][1ff55bea][ManagementConnection] The client has reconnected.
+[2023-03-18 02:43:58.558] [remoteagent] [info] [127.0.0.1][d92115ca][ExtensionHostConnection] <3353> Extension Host Process exited with code: 0, signal: null.

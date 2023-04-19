@@ -1,0 +1,16 @@
+[2023-04-18 22:56:41.106] [exthost] [info] Extension host with pid 900 started
+[2023-04-18 22:56:41.126] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Lock acquired.
+[2023-04-18 22:56:41.985] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-18 22:56:41.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-04-18 22:56:41.987] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-18 22:56:43.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-04-18 22:56:43.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-18 22:56:45.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-18 22:56:45.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-18 22:56:45.239] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-18 22:56:45.239] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-18 22:56:45.240] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-18 22:56:45.240] [exthost] [info] Eager extensions activated
+[2023-04-18 22:58:31.252] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-04-18 22:58:31.253] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-04-18 22:58:31.285] [exthost] [info] Extension host with pid 900 exiting with code 0

@@ -1,0 +1,205 @@
+[2023-03-18 08:25:51.873] [remoteagent] [info] 
+
+
+
+
+[2023-03-18 08:25:52.182] [remoteagent] [info] Extension host agent started.
+[2023-03-18 08:25:52.554] [remoteagent] [info] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[2023-03-18 08:25:52.556] [remoteagent] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[2023-03-18 08:25:52.597] [remoteagent] [info] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[2023-03-18 08:25:52.707] [remoteagent] [info] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[2023-03-18 08:25:52.710] [remoteagent] [info] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2023-03-18 08:25:53.331] [remoteagent] [info] [127.0.0.1][11c9d1d5][ManagementConnection] New connection established.
+[2023-03-18 08:25:54.708] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] New connection established.
+[2023-03-18 08:25:54.899] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] <353> Launched Extension Host Process.
+[2023-03-18 08:26:25.004] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /cvmart-ide/vscode/vscode/lib/vscode/node_modules/keytar/lib/keytar.js
+- /cvmart-ide/vscode/vscode/lib/vscode/out/bootstrap-amd.js
+- /cvmart-ide/vscode/vscode/out/node/util.js
+- /cvmart-ide/vscode/vscode/out/node/cli.js
+- /cvmart-ide/vscode/vscode/out/node/entry.js
+[2023-03-18 08:30:34.664] [remoteagent] [info] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[2023-03-18 08:30:34.964] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 08:35:46.053] [remoteagent] [info] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[2023-03-18 08:35:46.363] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 08:41:39.018] [remoteagent] [info] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[2023-03-18 08:41:39.259] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 08:48:18.515] [remoteagent] [info] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[2023-03-18 08:48:18.772] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 08:52:20.692] [remoteagent] [info] [127.0.0.1][11c9d1d5][ManagementConnection] The client has reconnected.
+[2023-03-18 08:52:20.943] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 09:08:20.024] [remoteagent] [error] [127.0.0.1][1e2bc6e5][ManagementConnection] Unknown reconnection token (never seen).
+[2023-03-18 09:08:20.778] [remoteagent] [error] [127.0.0.1][d47e813a][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2023-03-18 09:55:21.917] [remoteagent] [info] [127.0.0.1][c1d986cc][ManagementConnection] New connection established.
+[2023-03-18 09:55:23.498] [remoteagent] [info] [127.0.0.1][4df1e3c7][ExtensionHostConnection] New connection established.
+[2023-03-18 09:55:23.692] [remoteagent] [info] [127.0.0.1][4df1e3c7][ExtensionHostConnection] <6294> Launched Extension Host Process.
+[2023-03-18 09:56:13.930] [remoteagent] [info] [127.0.0.1][bd83b658][ManagementConnection] New connection established.
+[2023-03-18 09:56:18.383] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] New connection established.
+[2023-03-18 09:56:18.578] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] <6375> Launched Extension Host Process.
+[2023-03-18 09:57:45.269] [remoteagent] [info] [127.0.0.1][c2dc2bb9][ManagementConnection] New connection established.
+[2023-03-18 09:57:46.860] [remoteagent] [info] [127.0.0.1][23d9e33c][ExtensionHostConnection] New connection established.
+[2023-03-18 09:57:47.099] [remoteagent] [info] [127.0.0.1][23d9e33c][ExtensionHostConnection] <6574> Launched Extension Host Process.
+[2023-03-18 09:57:48.395] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 67
+[2023-03-18 09:57:49.035] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 68
+[2023-03-18 09:57:49.695] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 69
+[2023-03-18 09:57:49.739] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 70
+[2023-03-18 09:57:49.739] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 71
+[2023-03-18 09:57:49.740] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 72
+[2023-03-18 09:57:49.740] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 73
+[2023-03-18 09:57:49.740] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 74
+[2023-03-18 09:57:49.740] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 75
+[2023-03-18 09:57:49.741] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 76
+[2023-03-18 09:57:51.174] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 77
+[2023-03-18 09:57:51.174] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 78
+[2023-03-18 09:57:51.174] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 79
+[2023-03-18 09:57:51.174] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 80
+[2023-03-18 09:57:51.174] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 81
+[2023-03-18 09:57:51.174] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 82
+[2023-03-18 09:57:51.902] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 83
+[2023-03-18 09:57:51.921] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 84
+[2023-03-18 09:57:52.379] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 85
+[2023-03-18 09:57:52.723] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 86
+[2023-03-18 09:57:52.765] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 87
+[2023-03-18 09:57:52.919] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 88
+[2023-03-18 09:57:53.074] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 89
+[2023-03-18 09:57:53.271] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 90
+[2023-03-18 10:00:22.948] [remoteagent] [info] [127.0.0.1][474e86ac][ExtensionHostConnection] <353> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 10:00:41.777] [remoteagent] [info] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[2023-03-18 10:00:41.874] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:02:46.427] [remoteagent] [info] [127.0.0.1][4df1e3c7][ExtensionHostConnection] <6294> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 10:03:04.314] [remoteagent] [info] [127.0.0.1][23d9e33c][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:03:04.333] [remoteagent] [info] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[2023-03-18 10:03:04.405] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:03:04.409] [remoteagent] [info] [127.0.0.1][c2dc2bb9][ManagementConnection] The client has reconnected.
+[2023-03-18 10:22:09.571] [remoteagent] [info] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[2023-03-18 10:22:09.580] [remoteagent] [info] [127.0.0.1][23d9e33c][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:22:09.583] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:22:09.614] [remoteagent] [info] [127.0.0.1][c2dc2bb9][ManagementConnection] The client has reconnected.
+[2023-03-18 10:24:26.503] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 91
+[2023-03-18 10:24:26.550] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 92
+[2023-03-18 10:24:26.972] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 93
+[2023-03-18 10:24:27.397] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 94
+[2023-03-18 10:24:27.442] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 95
+[2023-03-18 10:24:28.415] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 96
+[2023-03-18 10:24:28.415] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 97
+[2023-03-18 10:24:28.557] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 98
+[2023-03-18 10:24:48.648] [remoteagent] [info] [127.0.0.1][23d9e33c][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:24:48.708] [remoteagent] [info] [127.0.0.1][c2dc2bb9][ManagementConnection] The client has reconnected.
+[2023-03-18 10:24:48.932] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 10:24:50.428] [remoteagent] [info] [127.0.0.1][bd83b658][ManagementConnection] The client has reconnected.
+[2023-03-18 10:26:11.362] [remoteagent] [info] [127.0.0.1][bd83b658][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-18 10:26:11.548] [remoteagent] [info] [127.0.0.1][efd97d31][ExtensionHostConnection] <6375> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 10:26:13.355] [remoteagent] [info] [127.0.0.1][67b11c9c][ManagementConnection] New connection established.
+[2023-03-18 10:26:14.967] [remoteagent] [info] [127.0.0.1][66750463][ExtensionHostConnection] New connection established.
+[2023-03-18 10:26:15.187] [remoteagent] [info] [127.0.0.1][66750463][ExtensionHostConnection] <8932> Launched Extension Host Process.
+[2023-03-18 10:31:13.790] [remoteagent] [info] [127.0.0.1][23d9e33c][ExtensionHostConnection] <6574> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 13:09:40.079] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] New connection established.
+[2023-03-18 13:09:41.542] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] New connection established.
+[2023-03-18 13:09:41.757] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] <13130> Launched Extension Host Process.
+[2023-03-18 13:10:39.985] [remoteagent] [info] [127.0.0.1][3d2b80a3][ManagementConnection] New connection established.
+[2023-03-18 13:10:41.593] [remoteagent] [info] [127.0.0.1][d33e47e9][ExtensionHostConnection] New connection established.
+[2023-03-18 13:10:41.795] [remoteagent] [info] [127.0.0.1][d33e47e9][ExtensionHostConnection] <13232> Launched Extension Host Process.
+[2023-03-18 13:10:44.143] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /project)
+[2023-03-18 13:11:01.943] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 13:11:01.964] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 155
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 156
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 157
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 158
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 159
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 160
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 161
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 162
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 163
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 164
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 165
+[2023-03-18 13:11:02.584] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 166
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 167
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 168
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 169
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 170
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 171
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 172
+[2023-03-18 13:11:02.585] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 173
+[2023-03-18 13:11:02.605] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 174
+[2023-03-18 13:11:02.605] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 175
+[2023-03-18 13:11:02.605] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 176
+[2023-03-18 13:11:02.606] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 177
+[2023-03-18 13:11:02.606] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 178
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 179
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 180
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 181
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 182
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 183
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 184
+[2023-03-18 13:11:02.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 185
+[2023-03-18 13:11:02.608] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 186
+[2023-03-18 13:11:36.695] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 13:11:36.697] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 13:12:03.125] [remoteagent] [info] [127.0.0.1][ad281ea7][ManagementConnection] New connection established.
+[2023-03-18 13:12:38.607] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 13:12:38.679] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 13:12:41.756] [remoteagent] [info] [127.0.0.1][ad281ea7][ManagementConnection] The client has reconnected.
+[2023-03-18 13:12:41.761] [remoteagent] [info] [127.0.0.1][ccf8b35a][ExtensionHostConnection] New connection established.
+[2023-03-18 13:12:41.970] [remoteagent] [info] [127.0.0.1][ccf8b35a][ExtensionHostConnection] <13377> Launched Extension Host Process.
+[2023-03-18 13:12:42.446] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /project)
+[2023-03-18 13:14:40.661] [remoteagent] [info] [127.0.0.1][66750463][ExtensionHostConnection] <8932> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 13:17:39.736] [remoteagent] [info] [127.0.0.1][d33e47e9][ExtensionHostConnection] <13232> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 15:46:57.703] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 15:46:57.898] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 15:46:58.603] [remoteagent] [info] [127.0.0.1][ccf8b35a][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 15:46:58.612] [remoteagent] [info] [127.0.0.1][ad281ea7][ManagementConnection] The client has reconnected.
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 187
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 188
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 189
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 190
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 191
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 192
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 193
+[2023-03-18 15:47:00.868] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 194
+[2023-03-18 15:47:08.618] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 195
+[2023-03-18 15:47:08.618] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 196
+[2023-03-18 15:47:08.650] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 197
+[2023-03-18 15:47:08.650] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 198
+[2023-03-18 15:47:08.661] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 199
+[2023-03-18 15:47:09.397] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 200
+[2023-03-18 15:47:09.408] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 201
+[2023-03-18 15:47:09.408] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 202
+[2023-03-18 15:47:09.457] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 203
+[2023-03-18 15:47:09.457] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 204
+[2023-03-18 15:47:09.480] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 205
+[2023-03-18 15:47:09.480] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 206
+[2023-03-18 15:47:09.544] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 207
+[2023-03-18 15:47:12.360] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 208
+[2023-03-18 15:47:13.238] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 209
+[2023-03-18 15:47:13.376] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 210
+[2023-03-18 15:52:34.234] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 15:52:35.158] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 15:55:14.343] [remoteagent] [info] [127.0.0.1][ccf8b35a][ExtensionHostConnection] <13377> Extension Host Process exited with code: 0, signal: null.
+[2023-03-18 16:04:26.921] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 16:04:27.352] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 16:09:02.506] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 16:09:02.639] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 16:13:58.057] [remoteagent] [info] [127.0.0.1][701b64d6][ManagementConnection] The client has reconnected.
+[2023-03-18 16:13:58.095] [remoteagent] [info] [127.0.0.1][daf1f4cd][ExtensionHostConnection] The client has reconnected.
+[2023-03-18 16:13:59.056] [remoteagent] [info] [127.0.0.1][2e9f8069][ManagementConnection] New connection established.
+[2023-03-18 16:14:01.084] [remoteagent] [info] [127.0.0.1][79f6ab4c][ExtensionHostConnection] New connection established.
+[2023-03-18 16:14:01.328] [remoteagent] [info] [127.0.0.1][79f6ab4c][ExtensionHostConnection] <18462> Launched Extension Host Process.
+[2023-03-18 16:14:03.264] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 211
+[2023-03-18 16:14:03.363] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 212
+[2023-03-18 16:14:03.466] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /project)
+[2023-03-18 16:14:03.581] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 213
+[2023-03-18 16:14:04.054] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 214
+[2023-03-18 16:14:04.124] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 215
+[2023-03-18 16:14:06.225] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 216
+[2023-03-18 16:14:06.226] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 217
+[2023-03-18 16:14:06.228] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 218
+[2023-03-18 16:14:06.228] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 219
+[2023-03-18 16:14:06.228] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 220
+[2023-03-18 16:14:06.228] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 221
+[2023-03-18 16:14:06.259] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 222
+[2023-03-18 16:14:06.260] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 223
+[2023-03-18 16:14:06.260] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 224
+[2023-03-18 16:14:06.263] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 225
+[2023-03-18 16:14:06.498] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 226

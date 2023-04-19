@@ -1,0 +1,13 @@
+{
+  "base_url": "/nanyou-project-instance-32945-jk9datnoe5eeby4/ov-ide/notebook/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 67,
+  "port": 8888,
+  "root_dir": "/project",
+  "secure": false,
+  "sock": "",
+  "token": "ratftdu3gxn9s2k",
+  "url": "http://project-9982-instance-32945-ov-ide-587fdcc4c9-fsmbj:8888/nanyou-project-instance-32945-jk9datnoe5eeby4/ov-ide/notebook/",
+  "version": "1.17.0"
+}

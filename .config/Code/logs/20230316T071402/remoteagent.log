@@ -1,0 +1,63 @@
+[2023-03-16 07:14:02.564] [remoteagent] [info] 
+
+
+
+
+[2023-03-16 07:14:02.730] [remoteagent] [info] Extension host agent started.
+[2023-03-16 07:14:03.048] [remoteagent] [info] Deleted from disk akamud.vscode-theme-onedark /cvmart-ide/vscode/.vscode/extensions/akamud.vscode-theme-onedark-2.3.0
+[2023-03-16 07:14:03.051] [remoteagent] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /cvmart-ide/vscode/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+[2023-03-16 07:14:03.073] [remoteagent] [info] Deleted from disk eamodio.gitlens /cvmart-ide/vscode/.vscode/extensions/eamodio.gitlens-11.7.0
+[2023-03-16 07:14:03.135] [remoteagent] [info] Deleted from disk tht13.python /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.2-universal
+[2023-03-16 07:14:03.139] [remoteagent] [info] Deleted from disk ms-python.python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2023-03-16 07:14:30.754] [remoteagent] [error] [127.0.0.1][7c4233cb][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2023-03-16 07:14:31.263] [remoteagent] [error] [127.0.0.1][a881e169][ManagementConnection] Unknown reconnection token (never seen).
+[2023-03-16 07:17:14.142] [remoteagent] [error] [127.0.0.1][41e05874][ManagementConnection] Unknown reconnection token (never seen).
+[2023-03-16 07:21:06.488] [remoteagent] [info] [127.0.0.1][f48cbbe9][ManagementConnection] New connection established.
+[2023-03-16 07:21:14.563] [remoteagent] [info] [127.0.0.1][9cecdfd5][ExtensionHostConnection] New connection established.
+[2023-03-16 07:21:14.630] [remoteagent] [info] [127.0.0.1][9cecdfd5][ExtensionHostConnection] <352> Launched Extension Host Process.
+[2023-03-16 07:21:26.262] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /cvmart-ide/vscode/vscode/lib/vscode/node_modules/keytar/lib/keytar.js
+- /cvmart-ide/vscode/vscode/lib/vscode/out/bootstrap-amd.js
+- /cvmart-ide/vscode/vscode/out/node/util.js
+- /cvmart-ide/vscode/vscode/out/node/cli.js
+- /cvmart-ide/vscode/vscode/out/node/entry.js
+[2023-03-16 07:52:50.821] [remoteagent] [info] [127.0.0.1][c93bdc76][ManagementConnection] New connection established.
+[2023-03-16 07:57:52.594] [remoteagent] [info] [127.0.0.1][9cecdfd5][ExtensionHostConnection] <352> Extension Host Process exited with code: 0, signal: null.
+[2023-03-16 08:12:07.026] [remoteagent] [info] [127.0.0.1][0f6af779][ExtensionHostConnection] New connection established.
+[2023-03-16 08:12:07.141] [remoteagent] [info] [127.0.0.1][0f6af779][ExtensionHostConnection] <4760> Launched Extension Host Process.
+[2023-03-16 08:19:33.729] [remoteagent] [info] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[2023-03-16 08:19:44.445] [remoteagent] [info] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[2023-03-16 08:33:34.417] [remoteagent] [info] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[2023-03-16 08:36:19.099] [remoteagent] [info] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[2023-03-16 08:38:57.054] [remoteagent] [info] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[2023-03-16 08:40:30.963] [remoteagent] [info] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[2023-03-16 08:42:59.766] [remoteagent] [info] [127.0.0.1][c93bdc76][ManagementConnection] The client has reconnected.
+[2023-03-16 08:42:59.770] [remoteagent] [info] [127.0.0.1][0f6af779][ExtensionHostConnection] The client has reconnected.
+[2023-03-16 08:44:37.342] [remoteagent] [info] [127.0.0.1][a15344af][ManagementConnection] New connection established.
+[2023-03-16 08:44:39.081] [remoteagent] [info] [127.0.0.1][4cc3862a][ExtensionHostConnection] New connection established.
+[2023-03-16 08:44:39.142] [remoteagent] [info] [127.0.0.1][4cc3862a][ExtensionHostConnection] <7711> Launched Extension Host Process.
+[2023-03-16 08:44:42.028] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 69
+[2023-03-16 08:44:42.028] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 70
+[2023-03-16 08:44:42.028] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 71
+[2023-03-16 08:44:42.029] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 72
+[2023-03-16 08:44:42.029] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 73
+[2023-03-16 08:44:42.029] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 74
+[2023-03-16 08:44:42.029] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 75
+[2023-03-16 08:44:42.029] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 76
+[2023-03-16 08:44:42.030] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 77
+[2023-03-16 08:44:42.060] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 78
+[2023-03-16 08:44:42.060] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 79
+[2023-03-16 08:44:43.120] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 80
+[2023-03-16 08:44:43.120] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 81
+[2023-03-16 08:44:43.120] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 82
+[2023-03-16 08:44:43.120] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 83
+[2023-03-16 08:44:43.121] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 84
+[2023-03-16 08:44:43.121] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 85
+[2023-03-16 08:45:02.512] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 86
+[2023-03-16 08:45:02.512] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 87
+[2023-03-16 08:45:03.601] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 88
+[2023-03-16 08:45:03.601] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 89
+[2023-03-16 08:45:03.601] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 90
+[2023-03-16 08:45:03.601] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 91
+[2023-03-16 08:45:03.601] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 92

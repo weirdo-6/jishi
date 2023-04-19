@@ -1,0 +1,5 @@
+[2023-03-18 15:47:07.405] [exthost] [info] Extension host with pid 13377 started
+[2023-03-18 15:47:07.431] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Lock acquired.
+[2023-03-18 15:55:14.329] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-03-18 15:55:14.330] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-18 15:55:14.332] [exthost] [info] Extension host with pid 13377 exiting with code 0

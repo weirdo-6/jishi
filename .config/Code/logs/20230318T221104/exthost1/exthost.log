@@ -1,0 +1,289 @@
+[2023-03-18 22:11:18.244] [exthost] [info] Extension host with pid 263 started
+[2023-03-18 22:11:18.269] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Lock acquired.
+[2023-03-18 22:11:18.655] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 22:11:18.657] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 22:11:18.658] [exthost] [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 22:11:18.659] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-18 22:11:18.659] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-18 22:11:18.660] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-18 22:11:21.108] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2023-03-18 22:11:21.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-18 22:11:21.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-18 22:11:28.865] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 22:11:28.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 22:11:28.867] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 22:11:28.867] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 22:11:28.867] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 22:11:29.350] [exthost] [info] Eager extensions activated
+[2023-03-18 22:16:39.523] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-18 22:19:26.380] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:19:26.380] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:19:28.080] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:19:28.080] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:29:31.575] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-18 22:30:16.441] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-18 22:30:17.537] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-18 22:30:23.538] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-18 22:33:01.943] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:33:01.943] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:44:36.698] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:44:36.698] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:44:37.264] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:44:37.264] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:44:58.757] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:44:58.757] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 59 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:54:01.398] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:54:01.398] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:59:13.707] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:59:13.708] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 95 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 22:59:48.302] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 22:59:48.302] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 107 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:06:14.875] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:06:14.876] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 30 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:06:36.519] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:06:36.519] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 33 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:07:20.323] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:07:20.324] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 37 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:08:51.123] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:08:51.123] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 47 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:11:15.828] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:11:15.828] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 53 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:27:48.320] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:27:48.320] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, <Operator: )>]) is not in list
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:29:18.565] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:29:18.565] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 33 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:30:44.569] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:30:44.569] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:30:44.893] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:30:44.894] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:30:48.573] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:30:48.573] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:30:53.204] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:30:53.204] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 22 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:30:58.464] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:30:58.464] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 24 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:31:06.324] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:31:06.325] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 32 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:33:46.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2023-03-18 23:33:46.421] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-18 23:35:52.917] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:35:52.917] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 67 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:36:49.072] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:36:49.072] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 79 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:36:50.155] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:36:50.155] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 81 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:36:56.403] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:36:56.403] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 85 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:38:25.200] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:38:25.200] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:38:25.727] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:38:25.727] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 87 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:38:38.169] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:38:38.169] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 96 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:38:38.889] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:38:38.889] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 98 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:38:44.437] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:38:44.438] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 102 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:39:57.235] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:39:57.235] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 112 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:40:00.471] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:40:00.471] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 109 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:40:06.965] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:40:06.965] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 110 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:40:12.988] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:40:12.988] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 116 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:40:25.032] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:40:25.032] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 117 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:45:20.765] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:45:20.766] [exthost] [error] Error: AttributeError: 'NoneType' object has no attribute 'is_module'
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:57:14.513] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:57:14.513] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 35 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-18 23:57:26.799] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-18 23:57:26.799] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 35 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-19 00:13:12.098] [exthost] [warning] TextEditor is closed/disposed
+[2023-03-19 00:21:30.902] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-19 00:21:30.902] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-19 00:21:31.248] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-19 00:21:31.248] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 75 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-19 00:28:53.843] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-19 00:28:53.843] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 71 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-19 00:29:05.948] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-19 00:29:05.948] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 60 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)
+[2023-03-19 00:29:08.698] [exthost] [error] [ms-python.python] provider FAILED
+[2023-03-19 00:29:08.698] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 60 ('\n').
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2170901
+	at /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171195
+	at Immediate.<anonymous> (/cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/out/client/extension.js:2:2171557)
+	at processImmediate (node:internal/timers:466:21)

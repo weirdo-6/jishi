@@ -1,0 +1,38 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+Python interpreter path: /usr/bin/python
+> /usr/bin/python /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python3.6 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+> /usr/include/python3.6 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+> /usr/include/python3.7 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-15 23:38:44.670]: [Error: Command failed: /usr/include/python3.6 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:400:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1093:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py'
+}
+[ERROR 2023-2-15 23:38:44.673]: [Error: Command failed: /usr/include/python3.7 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.7: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:400:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1093:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:757:14)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.7 /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/get_output_via_markers.py /cvmart-ide/vscode/.vscode/extensions/ms-python.python-2022.16.1-universal/pythonFiles/interpreterInfo.py'
+}
+Starting Jedi language server for project.

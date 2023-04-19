@@ -1,0 +1,6 @@
+[2023-03-18 14:11:33.685] [GIT  ] [/project] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 225 ms
+
+[2023-03-18 14:29:52.912] [GIT  ] [/project/train/src_repo] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- yolov5/utils/general.py • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- yolov5/utils/general.py • bad revision '0000000000000000000000000000000000000000-' • 166 ms
+
+[2023-03-18 16:13:13.609] [GIT  ] [/project/train/models/train/exp8] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 235 ms
+

@@ -1,0 +1,29 @@
+[2023-03-18 09:57:48.333] [exthost] [info] Extension host with pid 6574 started
+[2023-03-18 09:57:48.343] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock'
+[2023-03-18 09:57:48.355] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 09:57:48.361] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': The lock does not look stale, elapsed: 944 ms, giving up.
+[2023-03-18 09:57:48.362] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock'
+[2023-03-18 09:57:48.362] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 09:57:48.363] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-1/vscode.lock': The lock does not look stale, elapsed: 906 ms, giving up.
+[2023-03-18 09:57:48.363] [exthost] [error] Error: EEXIST: file already exists, open '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock'
+[2023-03-18 09:57:48.364] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-18 09:57:48.364] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-2/vscode.lock': The lock does not look stale, elapsed: 740 ms, giving up.
+[2023-03-18 09:57:48.371] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-3/vscode.lock': Lock acquired.
+[2023-03-18 09:57:48.651] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 09:57:48.653] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 09:57:48.654] [exthost] [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 09:57:48.655] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-18 09:57:48.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-18 09:57:48.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-18 09:57:50.907] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2023-03-18 09:57:51.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-18 09:57:51.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-18 09:57:57.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:57:57.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:57:57.301] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:57:57.302] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:57:57.302] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 09:57:57.302] [exthost] [info] Eager extensions activated
+[2023-03-18 10:31:13.702] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-03-18 10:31:13.703] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d-3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-18 10:31:13.774] [exthost] [info] Extension host with pid 6574 exiting with code 0

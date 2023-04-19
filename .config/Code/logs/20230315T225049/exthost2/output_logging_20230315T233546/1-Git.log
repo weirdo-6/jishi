@@ -1,0 +1,55 @@
+[2023-03-15T15:35:59.828Z] Log level: Info
+[2023-03-15T15:35:59.835Z] [info] Validating found git in: git
+[2023-03-15T15:36:00.159Z] [info] Using git 2.17.1 from git
+[2023-03-15T15:36:00.336Z] > git rev-parse --show-toplevel [127ms]
+[2023-03-15T15:36:00.336Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:00.431Z] > git rev-parse --show-toplevel [9ms]
+[2023-03-15T15:36:00.479Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2023-03-15T15:36:00.487Z] [info] Open repository: /project/train/src_repo
+[2023-03-15T15:36:00.619Z] > git status -z -uall [59ms]
+[2023-03-15T15:36:00.664Z] > git rev-parse --show-toplevel [47ms]
+[2023-03-15T15:36:00.664Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:00.729Z] > git symbolic-ref --short HEAD [66ms]
+[2023-03-15T15:36:00.776Z] > git rev-parse --show-toplevel [53ms]
+[2023-03-15T15:36:00.776Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:00.821Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+[2023-03-15T15:36:00.937Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [45ms]
+[2023-03-15T15:36:00.937Z] > git rev-parse --show-toplevel [117ms]
+[2023-03-15T15:36:00.937Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.034Z] > git remote --verbose [99ms]
+[2023-03-15T15:36:01.107Z] > git rev-parse --show-toplevel [127ms]
+[2023-03-15T15:36:01.107Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.157Z] > git rev-parse --show-toplevel [3ms]
+[2023-03-15T15:36:01.157Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.200Z] > git config --get commit.template [93ms]
+[2023-03-15T15:36:01.277Z] > git rev-parse --show-toplevel [77ms]
+[2023-03-15T15:36:01.277Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.322Z] > git status -z -uall [49ms]
+[2023-03-15T15:36:01.370Z] > git rev-parse --show-toplevel [50ms]
+[2023-03-15T15:36:01.370Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.432Z] > git symbolic-ref --short HEAD [66ms]
+[2023-03-15T15:36:01.501Z] > git rev-parse --show-toplevel [89ms]
+[2023-03-15T15:36:01.501Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.547Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [69ms]
+[2023-03-15T15:36:01.760Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [145ms]
+[2023-03-15T15:36:01.760Z] > git rev-parse --show-toplevel [215ms]
+[2023-03-15T15:36:01.760Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.803Z] > git remote --verbose [142ms]
+[2023-03-15T15:36:01.875Z] > git rev-parse --show-toplevel [73ms]
+[2023-03-15T15:36:01.875Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-03-15T15:36:01.880Z] > git config --get commit.template [8ms]
+[2023-03-15T15:36:41.911Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n21 -- /project/train/src_repo/yolov5/train.py [14ms]
+[2023-03-15T15:36:42.413Z] > git check-ignore -v -z --stdin [2ms]
+[2023-03-15T15:36:50.877Z] > git show --textconv :yolov5/train.py [166ms]
+[2023-03-15T15:36:50.879Z] > git ls-files --stage -- /project/train/src_repo/yolov5/train.py [92ms]
+[2023-03-15T15:36:50.928Z] > git cat-file -s dec83a4f4011b85490468d14900fc3de8d15d645 [1ms]
+[2023-03-15T15:41:24.070Z] > git rev-list --count 0ac49616aa708f70424005517835cb204e444633.. -- /project/train/src_repo/yolov5/train.py [3ms]
+[2023-03-15T15:41:24.150Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n4 -- /project/train/src_repo/yolov5/train.py [2ms]
+[2023-03-15T15:46:49.368Z] > git rev-list --count 0ac49616aa708f70424005517835cb204e444633.. -- /project/train/src_repo/yolov5/train.py [2ms]
+[2023-03-15T15:46:49.444Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n4 -- /project/train/src_repo/yolov5/train.py [2ms]
+[2023-03-15T15:52:13.810Z] > git rev-list --count 0ac49616aa708f70424005517835cb204e444633.. -- /project/train/src_repo/yolov5/train.py [1ms]
+[2023-03-15T15:52:13.890Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n4 -- /project/train/src_repo/yolov5/train.py [4ms]
+[2023-03-15T15:57:50.272Z] > git rev-list --count 0ac49616aa708f70424005517835cb204e444633.. -- /project/train/src_repo/yolov5/train.py [11ms]
+[2023-03-15T15:57:50.320Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n4 -- /project/train/src_repo/yolov5/train.py [3ms]
+[2023-03-15T15:58:33.038Z] > git rev-list --count 0ac49616aa708f70424005517835cb204e444633.. -- /project/train/src_repo/yolov5/train.py [1ms]
+[2023-03-15T15:58:33.095Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n4 -- /project/train/src_repo/yolov5/train.py [3ms]

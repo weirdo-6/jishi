@@ -1,0 +1,16 @@
+code-server (1.72.1, www.cvmart.net, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.16.1.
+Workspace folder /project
+info 08:26:15.205: ZMQ install verified.
+info 08:26:16.491: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 08:28:33.183: Got empty env vars with python /usr/bin/python in 1512ms
+info 08:28:33.202: Process Execution: > /usr/bin/python -m pip list
+> /usr/bin/python -m pip list
+info 10:00:22.895: Shutting down notebooks for 3e468da7-95ba-43d1-b252-150a6911049f
+info 10:00:22.896: Disposing HostJupyterExecution 039bd892-44ce-4eed-923d-646fa5faae85
+info 10:00:22.896: Disposing super HostJupyterExecution 039bd892-44ce-4eed-923d-646fa5faae85
+info 10:00:22.896: Disposing HostJupyterExecution 039bd892-44ce-4eed-923d-646fa5faae85
+info 10:00:22.896: Finished disposing HostJupyterExecution  039bd892-44ce-4eed-923d-646fa5faae85
+info 10:00:22.908: Cleaning up server cache 039bd892-44ce-4eed-923d-646fa5faae85
+info 10:00:22.910: Finished disposing HostJupyterExecution  039bd892-44ce-4eed-923d-646fa5faae85

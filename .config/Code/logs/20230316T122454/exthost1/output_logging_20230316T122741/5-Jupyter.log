@@ -1,0 +1,10 @@
+code-server (1.72.1, www.cvmart.net, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.16.1.
+Workspace folder /project
+info 12:28:01.912: ZMQ install verified.
+info 12:28:02.844: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 12:30:16.885: Got empty env vars with python /usr/bin/python in 2028ms
+info 12:30:16.886: Got env vars ourselves faster /usr/bin/python with env var count 2379 in 2030ms
+info 12:30:16.906: Process Execution: > /usr/bin/python -m pip list
+> /usr/bin/python -m pip list

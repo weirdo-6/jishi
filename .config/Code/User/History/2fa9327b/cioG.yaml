@@ -1,0 +1,7 @@
+#helmet.yaml
+train: /project/train/src_repo/dataset/train.txt
+val: /project/train/src_repo/dataset/val.txt
+# number of classes
+nc: 5
+# class names
+names: ['table', 'chair','table_chair','umbrella','uncertain']

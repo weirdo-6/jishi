@@ -1,0 +1,32 @@
+[2023-03-18 10:26:16.682] [exthost] [info] Extension host with pid 8932 started
+[2023-03-18 10:26:16.697] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Lock acquired.
+[2023-03-18 10:26:17.094] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 10:26:17.095] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 10:26:17.095] [exthost] [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-18 10:26:17.096] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-18 10:26:17.096] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-18 10:26:17.097] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-18 10:26:19.452] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2023-03-18 10:26:19.970] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-18 10:26:19.970] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-18 10:26:27.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 10:26:27.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 10:26:27.202] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 10:26:27.202] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 10:26:27.202] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-18 10:26:27.783] [exthost] [info] Eager extensions activated
+[2023-03-18 13:14:40.522] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-03-18 13:14:40.523] [exthost] [info] Lock '/project/.config/Code/User/workspaceStorage/-65d9b66d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-18 13:14:40.619] [exthost] [warning] {"name":"Canceled"}
+[2023-03-18 13:14:40.632] [exthost] [error] Error: Channel closed
+	at new NodeError (node:internal/errors:387:5)
+	at ChildProcess.target.send (node:internal/child_process:742:16)
+	at IPCMessageWriter.write (/cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-jsonrpc/lib/messageWriter.js:34:22)
+	at /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-jsonrpc/lib/main.js:195:31
+	at new Promise (<anonymous>)
+	at Object.sendRequest (/cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-jsonrpc/lib/main.js:186:20)
+	at Object.shutdown (/cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-languageclient/lib/main.js:48:51)
+	at /cvmart-ide/vscode/.vscode/extensions/tht13.python-0.2.0/node_modules/vscode-languageclient/lib/main.js:319:24
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-03-18 13:14:40.637] [exthost] [info] Extension host with pid 8932 exiting with code 0
